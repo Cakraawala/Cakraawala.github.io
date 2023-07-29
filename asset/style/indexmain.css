@@ -15,12 +15,16 @@
     background-color: #f1f1f1;
 }
 
-a {
+/* a.nav {
     cursor: pointer;
-}
+} */
 
 .custom-icon {
     fill: #ffffff;
+}
+
+svg.icon-sosmed {
+    fill: #444;
 }
 
 .container-about,
@@ -76,11 +80,11 @@ a:hover {
     text-align: justify
 }
 
-.btn-skill svg.icon-skill {
+.btn-skill .icon-skill {
     fill: #007BFF;
 }
 
-.btn-skill:hover svg.icon-skill {
+.btn-skill:hover .icon-skill {
     fill: #ffffff;
 }
 
@@ -88,6 +92,10 @@ a:hover {
 
 /* Kalo di kecilin */
 @media(max-width:768px) {
+    #homerow {
+        padding-top: 30px;
+    }
+
     .home-img {
         margin-top: 20px;
     }
