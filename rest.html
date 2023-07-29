@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Angger Cakra</title>
+    <link rel="stylesheet" href="asset/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/style/rest.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand text-primary fw-bold fs-4" href="home.html">Angger Cakra</a>
+            <button class="navbar-toggler btn btn-primary active text-light" role="button" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasnavbar" aria-controls="offcanvasnavbar"
+                aria-label="Toggle navigation">
+                <svg class="custom-icon" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" height="1em"
+                    viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+
+            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasnavbar"
+                aria-labelledby="offcanvaslabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-primary fw-bold fs-4" id="offcanvaslabel">Cakra</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html#home" id="link1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#service" id="link2">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about" id="link3">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#portfolio" id="link4">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link activeNav dropdown-toggle
+                                href=" #" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Project
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/project/kecantikan">E-Commerce Kecantikan</a></li>
+                                <li><a class="dropdown-item" href="/project/hotel">Booking Kamar Hotel</a></li>
+                                <li><a class="dropdown-item" href="/project/absensi">Absensi</a></li>
+                                <li><a class="dropdown-item" href="/project/spp">Pembayaran SPP</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/project/rest/">REST-API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact" id="link5">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-light py-5">
+        <div class="container">
+            <h1 class="display-4">Project REST API</h1>
+            <p class="lead">Powerful REST API for accessing and managing data with high flexibility and optimal
+                performance.</p>
+            <p class="mb-0">Technologies: PHP Laravel, MySQL</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Documentation -->
+        <section id="documentation" class="py-5">
+            <div class="container">
+                <h2 class="mb-4">Documentation</h2>
+                <pre class="bg-dark p-3">
+    {
+        "endpoint": "/api/",
+        "method": "GET",
+        "headers": {
+            "Authorization": "API_KEY"
+        }
+    }
+                </pre>
+                <p class="mb-0">Endpoint: /api/</p>
+                <p class="mb-0">Method: GET</p>
+                <p class="mb-0">Headers: Authorization: API_KEY</p>
+            </div>
+        </section>
+
+
+
+        <!-- Features -->
+        <section id="features" class="bg-light py-5">
+            <div class="container">
+                <h2 class="mb-4">Features</h2>
+                <ul>
+                    <li>Powerful: Supports high flexibility for accessing and managing data.</li>
+                    <li>Optimal Performance: Provides fast data access and processing.</li>
+                    <li>Security: Requires API_KEY for authorized access.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Usage -->
+    <section id="usage" class=py-5 mb-4">
+        <div class="container">
+
+            <h2 class="mb-4">Usage</h2>
+            <pre class="bg-dark p-3">
+        {
+            "name" => "{{ $usage['name'] }}"
+            "username" => "{{ $usage['username'] }}"
+            "email" => {{ $usage['email'] ?? 'null' }}
+            "api_keys" => [
+              "key" => "{{ $usage['key'] }}"
+              "start_time" => {{ $usage['start'] }}
+              "exp_time" => {{ $usage['exp'] }}
+              "limit" => {{ $usage['limit'] }}
+            ]
+        }</pre>
+            <ol>
+                <li>Get 'key' from create account and get the api key.</li>
+                <li>Use 'key' to access data through endpoint /api/data?apikey=yourapikey.</li>
+                <li>Add request for a detail</li>
+                <ul>
+                    <li>Request ID to fetch 1 data based on the requested ID.
+                        <pre class="bg-dark mt-1">
+http://127.0.0.1:8000/api/mahasiswa?apikey=yourapikey&id=4</pre>
+                        <pre class="bg-dark mt-1">
+http://127.0.0.1:8000/api/users/{ID}/cart</pre>
+                    </li>
+                    <li>Request Name to fetch all data based on the request Name
+                        <pre class="bg-dark mt-1">
+http://127.0.0.1:8000/api/mahasiswa?apikey=yourapikey&name=Angger </pre>
+                    </li>
+                    <li>Request Username to fetch all data based on the request Username
+                        <pre class="bg-dark mt-1">
+http://127.0.0.1:8000/api/users?apikey=yourapikey&username=Thomas Slebew </pre>
+                    </li>
+                </ul>
+                <li>There is 5 methode</li>
+                <ul>
+                    <li>Methode GET all data
+                        <!-- <pre class="bg-dark mt-1">
+http://127.0.0.1:8000/api/data?apikey=yourapikey&name=Angger </pre> -->
+                    </li>
+                    <li>Methode POST data.
+                        <pre class="bg-dark mt-1">|http://127.0.0.1:8000/api/data?apikey=yourapikey|</li></pre>
+                    <li>Methode PUT data for a Update.
+                    <li>Methode SHOW data for showing data with parameter ID.
+                    </li>
+                    <li>Methode DELETE data
+                        <pre class="bg-dark mt-1">|http://127.0.0.1:8000/api/data/{ID}?apikey=yourapikey|</pre>
+                    </li>
+                </ul>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Project REST API Cards -->
+    <section class="bg-dark text-light py-5" id="restproject">
+        <div class="container">
+            <h2 class="mb-4">My Project REST API</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <!-- <a href="/api/users"> -->
+                    <div class="card border-0 h-100">
+                        <img src="asset/img/portfolio/rest1.png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">REST API Users</h5>
+                            <p class="card-text fs-6">Project REST API User menyediakan layanan pengelolaan data
+                                pengguna
+                                dengan menggunakan metode GET, SHOW, UPDATE, dan DELETE. Dengan menggunakan API ini,
+                                Anda dapat mengakses, menampilkan, memperbarui, dan menghapus data pengguna dengan
+                                mudah dan aman. Project ini memungkinkan integrasi yang mulus dengan aplikasi lain
+                                untuk mengelola data pengguna dengan efisien dan andal.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <!-- <a href="/api/mahasiswa?apikey={{ $usage['key'] }}"> -->
+                    <div class="card border-0 h-100">
+                        <img src="asset/img/portfolio/api-project.png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">REST API Mahasiswa</h5>
+                            <p class="card-text fs-6">API REST Mahasiswa: Akses, tampilkan, perbarui, dan hapus data
+                                mahasiswa dengan efisien dan mudah. Integrasikan dengan aplikasi lain untuk pengelolaan
+                                data yang lebih baik.
+                            </p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <!-- <a href="/api/film?apikey=HZ5PB2a2OzuEsAGtayPlynsl6YZ8X4"> -->
+                    <div class="card border-0 h-100">
+                        <img src="asset/img/portfolio/rest3.png" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">REST API Cart</h5>
+                            <p class="card-text fs-6">API REST Cart: Kelola keranjang belanja dengan mudah. Tambahkan,
+                                tampilkan, perbarui, dan hapus item dengan cepat. Manfaatkan fitur API untuk pengalaman
+                                berbelanja yang lancar.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer bg-dark text-light" id="footer">
+        <div class="container-lg pt-2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center" style="font-size:13px">
+                        &copy; Angger Cakra Wicaksono, 2023.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="asset/bs/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

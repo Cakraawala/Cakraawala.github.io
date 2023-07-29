@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Angger Cakra</title>
+    <link rel="stylesheet" href="asset/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fa/all.css">
+    <link rel="stylesheet" href="asset/fa4/css/all.min.css">
+    <link rel="stylesheet" href="asset/style/indexmain.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container-lg">
+            <a class="navbar-brand text-primary fw-bold fs-4" href="#">Angger Cakra</a>
+            <button class="navbar-toggler btn btn-primary active text-light" role="button" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasnavbar" aria-controls="offcanvasnavbar"
+                aria-label="Toggle navigation">
+                <svg class="custom-icon" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" height="1em"
+                    viewBox="0 0 448 512">
+                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </button>
+
+            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasnavbar"
+                aria-labelledby="offcanvaslabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-primary fw-bold fs-4" id="offcanvaslabel">Cakra</h5>
+                    <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link activeNav" href="#home" id="link1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service" id="link2">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" id="link3">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio" id="link4">Portfolio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle
+                                href=" #" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Project
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item">E-Commerce Kecantikan</a></li>
+                                <li><a class="dropdown-item">Booking Kamar Hotel</a></li>
+                                <li><a class="dropdown-item">Absensi</a></li>
+                                <li><a class="dropdown-item">Pembayaran SPP</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="rest.html">REST-API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" id="link5">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------------------- end navbarrrr ----------------->
+
+    <div class="container-lg">
+        <section class="home" id="home">
+            <div class="container-lg">
+                <div class="row mt-md-0 mt-5 align-item-center align-content-center" style="min-height:100vh">
+                    <div class="col-md-6">
+                        <div class="home-text text-center  mt-lg-5 mt-0 text-md-start" style="padding-top: 30px">
+                            <p class="text-muted mb-1 ">Nama saya</p>
+                            <h1 class="text-uppercase  text-primary fs-1 fw-bold">Angger Cakra Wicaksono</h1>
+                            <h2 class="fs-4 ">Programmer | Backend Developer</h2>
+                            <p class="mt-4 mb-2 text-muted ">Saya memiliki pengalaman dalam mengembangkan aplikasi
+                                backend pada
+                                laravel
+                                dan paham tentang teknologi terkini.</p>
+                            <div class="d-flex" id="icon-link">
+                                <a href="https://Github.com/Cakraawala" target="blank" class="fs-6 me-2 text-muted"
+                                    style="text-decoration: none; color:black">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512">
+                                        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg> Github
+                                </a>
+                                <a href="mailto:anggercakra37@gmail.com" class="fs-6 me-2 text-muted"
+                                    style="text-decoration: none; color:black">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" />
+                                    </svg> Email
+                                </a>
+                                <a href="https://www.linkedin.com/in/angger-cakra-205ab8275"
+                                    class="fs-6 me-2 text-muted" target="blank"
+                                    style="text-decoration: none; color:black"><svg xmlns="http://www.w3.org/2000/svg"
+                                        height="1em" viewBox="0 0 448 512">
+                                        <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                    </svg> LinkedIn
+                                </a>
+                            </div>
+                            <a href="#portfolio" class="btn btn-primary px-3 mt-4 mb-3 rounded">Project saya</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="home-img position-relative d-flex justify-content-center justify-content-lg-end me-lg-5">
+                            <img src="asset/img/me3.png" width="300" class="rounded-circle" alt="me" style="z-index: 2">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!--------------------- home section endd  ----------------------->
+
+    <section class="bg-primary text-light services pt-5 pb-4 mt-3" id="service">
+        <div class="container-lg py-3 mt-3 container-service">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">What I Do</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-3 mb-md-2 mb-lg-0">
+                    <div class="service-item h-100 shadow border p-4 rounded">
+                        <div class="icon my-2 text-light fs-2">
+                            <i class="fas fa-database" style="color: #ffffff;"></i>
+                        </div>
+                        <h3 class="fs-4 py-1">Backend Development</h3>
+                        <p class="text-light">Saya berpengalaman langsung selama 3 bulan PKL terhadap Backend
+                            Development
+                            Laravel, Membuat REST Api dengan fitur apikey dan token.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3 mb-md-2 mb-lg-0">
+                    <div class="service-item h-100 shadow border p-4 rounded">
+                        <div class="icon my-2 text-light fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-4 py-1">Web Development</h3>
+                        <p class="text-light"> Saya memiliki project Web Development, berdedikasi dan mengembangkan
+                            solusi web yang inovatif. Menguasai HTML, CSS, dan JS dasar.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-3 mb-md-2 mb-lg-0">
+                    <div class="service-item h-100 shadow border p-4 rounded">
+                        <div class="icon my-2 text-light fs-2">
+                            <i class="fas fa-swatchbook"></i>
+                        </div>
+                        <h3 class="fs-4 py-1">Database Designer</h3>
+                        <p class="text-light">Saya juga dapat mengoptimalkan struktur dan kinerja database untuk
+                            aplikasi yang
+                            efisien dan andal.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!--------------------- service section endd  ----------------------->
+
+    <div class="container-lg">
+        <section class="about pt-5 pb-4 mb-3" id="about">
+            <div class="container-lg py-3 container-about">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 ">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mt-4 mb-5">About</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class=" col-md-12 mb-5">
+                        <div class="text-center">
+                            <h3 class="fw-bold v px-3 mb-3">Education</h3>
+                            <img src="asset/img/SMK.png" width="120" alt="logo-smk">
+                            <p class="fs-4 mt-4 mb-0">SMK Bina Mandiri Multimedia | Rekayasa Perangkat Lunak</p>
+                            <p class="fs-5">2020-2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 order-1 mb-3">
+                        <div class="about-text">
+                            <h3 class="fw-bold mb-0 mb-md-3 text-center">About me</h3>
+                            <p class="text-muted mt-3">&nbsp;&nbsp; Saya adalah seorang Junior programmer yang selalu
+                                ingin belajar
+                                dan berkembang.
+                                Saya baru saja lulus dari SMK Bina Mandiri Multimedia dengan jurusan Rekayasa Perangkat
+                                Lunak.
+                                Memiliki ketarampilan dalam Bahasa pemrogramman PHP dengan Framework Laravel.
+                                Berpengalaman dalam
+                                membuat project E-Commerce, Booking Hotel dan Project Pembayaran Lainnya. Visi saya
+                                adalah
+                                menciptakan solusi teknologi inovatif yang berguna. Saya
+                                berkomitmen untuk berkontribusi dalam menciptakan dunia digital
+                                yang lebih baik dan memberikan solusi berkelanjutan bagi tantangan masa depan. Saya
+                                dapat
+                                berkolaborasi dengan individu maupun dengan organisasi atau kelompok dengan visi yang
+                                sama.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-5 order-lg-2 order-md-2 order-3">
+                        <div class="text-center">
+                            <h3 class="fw-bold px-3">My Skills</h3>
+                        </div>
+                        <div class="px-1">
+                            <div class="skills-items">
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 384 512">
+                                        <path
+                                            d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                                    </svg> HTML
+                                </button>
+
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 384 512">
+                                        <path
+                                            d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                                    </svg> CSS
+                                </button>
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                                    </svg> JavaScript
+                                </button>
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 640 512">
+                                        <path
+                                            d="M320 104.5c171.4 0 303.2 72.2 303.2 151.5S491.3 407.5 320 407.5c-171.4 0-303.2-72.2-303.2-151.5S148.7 104.5 320 104.5m0-16.8C143.3 87.7 0 163 0 256s143.3 168.3 320 168.3S640 349 640 256 496.7 87.7 320 87.7zM218.2 242.5c-7.9 40.5-35.8 36.3-70.1 36.3l13.7-70.6c38 0 63.8-4.1 56.4 34.3zM97.4 350.3h36.7l8.7-44.8c41.1 0 66.6 3 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7h-70.7L97.4 350.3zm185.7-213.6h36.5l-8.7 44.8c31.5 0 60.7-2.3 74.8 10.7 14.8 13.6 7.7 31-8.3 113.1h-37c15.4-79.4 18.3-86 12.7-92-5.4-5.8-17.7-4.6-47.4-4.6l-18.8 96.6h-36.5l32.7-168.6zM505 242.5c-8 41.1-36.7 36.3-70.1 36.3l13.7-70.6c38.2 0 63.8-4.1 56.4 34.3zM384.2 350.3H421l8.7-44.8c43.2 0 67.1 2.5 90.2-19.1 26.1-24 32.9-66.7 14.3-88.1-9.7-11.2-25.3-16.7-46.5-16.7H417l-32.8 168.7z" />
+                                    </svg> PHP
+                                </button>
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M504.4,115.83a5.72,5.72,0,0,0-.28-.68,8.52,8.52,0,0,0-.53-1.25,6,6,0,0,0-.54-.71,9.36,9.36,0,0,0-.72-.94c-.23-.22-.52-.4-.77-.6a8.84,8.84,0,0,0-.9-.68L404.4,55.55a8,8,0,0,0-8,0L300.12,111h0a8.07,8.07,0,0,0-.88.69,7.68,7.68,0,0,0-.78.6,8.23,8.23,0,0,0-.72.93c-.17.24-.39.45-.54.71a9.7,9.7,0,0,0-.52,1.25c-.08.23-.21.44-.28.68a8.08,8.08,0,0,0-.28,2.08V223.18l-80.22,46.19V63.44a7.8,7.8,0,0,0-.28-2.09c-.06-.24-.2-.45-.28-.68a8.35,8.35,0,0,0-.52-1.24c-.14-.26-.37-.47-.54-.72a9.36,9.36,0,0,0-.72-.94,9.46,9.46,0,0,0-.78-.6,9.8,9.8,0,0,0-.88-.68h0L115.61,1.07a8,8,0,0,0-8,0L11.34,56.49h0a6.52,6.52,0,0,0-.88.69,7.81,7.81,0,0,0-.79.6,8.15,8.15,0,0,0-.71.93c-.18.25-.4.46-.55.72a7.88,7.88,0,0,0-.51,1.24,6.46,6.46,0,0,0-.29.67,8.18,8.18,0,0,0-.28,2.1v329.7a8,8,0,0,0,4,6.95l192.5,110.84a8.83,8.83,0,0,0,1.33.54c.21.08.41.2.63.26a7.92,7.92,0,0,0,4.1,0c.2-.05.37-.16.55-.22a8.6,8.6,0,0,0,1.4-.58L404.4,400.09a8,8,0,0,0,4-6.95V287.88l92.24-53.11a8,8,0,0,0,4-7V117.92A8.63,8.63,0,0,0,504.4,115.83ZM111.6,17.28h0l80.19,46.15-80.2,46.18L31.41,63.44Zm88.25,60V278.6l-46.53,26.79-33.69,19.4V123.5l46.53-26.79Zm0,412.78L23.37,388.5V77.32L57.06,96.7l46.52,26.8V338.68a6.94,6.94,0,0,0,.12.9,8,8,0,0,0,.16,1.18h0a5.92,5.92,0,0,0,.38.9,6.38,6.38,0,0,0,.42,1v0a8.54,8.54,0,0,0,.6.78,7.62,7.62,0,0,0,.66.84l0,0c.23.22.52.38.77.58a8.93,8.93,0,0,0,.86.66l0,0,0,0,92.19,52.18Zm8-106.17-80.06-45.32,84.09-48.41,92.26-53.11,80.13,46.13-58.8,33.56Zm184.52,4.57L215.88,490.11V397.8L346.6,323.2l45.77-26.15Zm0-119.13L358.68,250l-46.53-26.79V131.79l33.69,19.4L392.37,178Zm8-105.28-80.2-46.17,80.2-46.16,80.18,46.15Zm8,105.28V178L455,151.19l33.68-19.4v91.39h0Z" />
+                                    </svg> Laravel
+                                </button>
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">
+                                    <svg class="icon-skill" xmlns="http://www.w3.org/2000/svg" height="1em"
+                                        viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg> Github
+                                </button>
+                                <button class="btn fs-5 fw-bold mt-2 btn-skill btn-outline-primary">MySQL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 order-lg-3 order-md-3 order-2">
+                        <div class="text-center">
+                            <h3 class="fw-bold px-3 mb-3">Experience</h3>
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-item">
+                                <h4 class="fs-6 fw-bold">
+                                    <li>PT. Sistem Manajemen Dewarangga (Januari - April 2022)</li>
+                                </h4>
+                                <p class="text-muted ms-4">Saya mempunyai pengalaman magang selama
+                                    3 bulan di PT.Sistem Manajemen Dewarangga sebagai <span class="fw-bold">Backend
+                                        Developer</span>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!--------------------- about section endd  ----------------------->
+
+    <section class="portfolio bg-primary text-light pb-1" id="portfolio">
+        <div class="container-lg py-3 container-portfolio">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5" style="margin-top: 60px">My Project</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a href="rest.html">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/api-project.png" alt="Project 6">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">Rest API</h5>
+                                <p class="card-text">
+                                    REST API yang di buat menggunakan laravel secara powerful untuk mengakses dan
+                                    mengelola data
+                                    dengan fleksibilitas tinggi dan
+                                    performa optimal.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> Laravel </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a target="blank" href="https://github.com/Cakraawala/website-kecantikan">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/kecantikan-project.png" alt="Project 1">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">E-Commerce Kecantikan</h5>
+                                <p class="card-text">Website E-Commerce Kecantikan merupakan platform perdagangan online
+                                    yang
+                                    memudahkan pengguna untuk mencari dan membeli produk dengan responsif dan
+                                    fungsional.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> HTML, CSS, JS ,Bootstrap,
+                                    Laravel</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a target="blank" href="https://github.com/Cakraawala/hotel-app">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/hotel-project.png" alt="Project 2">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">Booking Hotel</h5>
+                                <p class="card-text">Website booking hotel merupakan platform online untuk mencari dan
+                                    memesan
+                                    Kamar dengan mudah. Pengguna dapat mencari kamar berdasarkan tanggal, dan jumlah
+                                    tamu yang
+                                    akan menginap.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> HTML, CSS, JS ,Bootstrap,
+                                    Laravel</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a target="blank" href="https://github.com/Cakraawala/spp-app">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/spp-project.png" alt="Project 3">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">Pembayaran SPP</h5>
+                                <p class="card-text">Pembayaran SPP merupakan Program untuk mengelola data pembayaran
+                                    SPP. Admin
+                                    dapat mengelola data SPP dengan mudah.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> HTML, Bootstrap, Laravel</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a target="blank" href="https://github.com/Cakraawala/absensi-app">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/absen-project.png" alt="Project 4">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">Absensi Siswa</h5>
+                                <p class="card-text">Project Absensi merupaka sistem absensi online efisien dan
+                                    responsif untuk
+                                    memantau kehadiran siswa dan membuat laporan dengan mudah dan akurat.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> HTML, Bootstrap, Laravel</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="project-card col-lg-4 col-md-6 mb-4">
+                    <a href="index.html">
+                        <div class="card h-100 border-0">
+                            <img class="card-img-top" src="asset/img/portfolio/portfolio-project.png" alt="Project 5">
+                            <div class="card-body bg-dark text-light">
+                                <h5 class="card-title">Portfolio</h5>
+                                <p class="card-text">Project Porftolio digital yang menampilkan project dan kemampuan
+                                    saya dalam
+                                    pengembangan web dan desain.</p>
+                                <p class="card-text mb-3"><strong>Technologies:</strong> HTML, CSS, Bootstrap</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+            <!-- {{-- <div class="col-lg-12 text-center mt-5">
+                <a href="/project" class="btn btn-sm btn-dark rounded-0 fw-bold shadow-none">More Project</a>
+            </div> --}} -->
+        </div>
+    </section>
+    <!--------------------- portfolio section endd  ----------------------->
+
+    <div class="container-lg">
+        <section class="contact py-5 mb-5" id="contact">
+            <div class="container-lg-py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">
+                                Contact
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="contact-item d-flex mb-3">
+                            <div class="icon fs-4 text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                </svg>
+                            </div>
+                            <div class="text ms-3">
+                                <h3 class="fs-5">
+                                    Email
+                                </h3>
+                                <p class="text-muted">Anggercakra37@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex mb-3 mt-3">
+                            <div class="icon fs-4 text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
+                                </svg>
+                            </div>
+                            <div class="text ms-3">
+                                <h3 class="fs-5">
+                                    Number
+                                </h3>
+                                <p class="text-muted">+62 857 7367 4231</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item d-flex mb-3 mt-3">
+                            <div class="icon fs-4 text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L512 185V64c0-17.7-14.3-32-32-32H448c-17.7 0-32 14.3-32 32v36.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1h32v69.7c-.1 .9-.1 1.8-.1 2.8V472c0 22.1 17.9 40 40 40h16c1.2 0 2.4-.1 3.6-.2c1.5 .1 3 .2 4.5 .2H160h24c22.1 0 40-17.9 40-40V448 384c0-17.7 14.3-32 32-32h64c17.7 0 32 14.3 32 32v64 24c0 22.1 17.9 40 40 40h24 32.5c1.4 0 2.8 0 4.2-.1c1.1 .1 2.2 .1 3.3 .1h16c22.1 0 40-17.9 40-40V455.8c.3-2.6 .5-5.3 .5-8.1l-.7-160.2h32z" />
+                                </svg>
+                            </div>
+                            <div class="text ms-3">
+                                <h3 class="fs-5">
+                                    Address
+                                </h3>
+                                <p class="text-muted">Jl. Grand Kahuripan Cluster Sindoro, Klapanunggal, Cileungsi,
+                                    Kab.Bogor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <iframe class="w-100 map rounded" height="300px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.59835051788!2d106.96216651092291!3d-6.445585663001423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6995b10810b8e5%3A0x353d8acb917cfef1!2sGrand%20Kahuripan%20Cluster%20Sindoro!5e0!3m2!1sid!2sid!4v1686819059890!5m2!1sid!2sid"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer" id="footer">
+            <div class="container-lg py-2">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="text-center">
+                            &copy; Angger Cakra Wicaksono, 2023.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--------------------- footer section endd  ----------------------->
+
+
+    <script src="asset/bs/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Ambil semua elemen <a> di dalam navbar
+        const navLinks = document.querySelectorAll('.navbar-nav a.nav-link');
+
+        // Tambahkan event listener untuk setiap link
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                // Hapus kelas "active" dari semua link
+                navLinks.forEach(link => link.classList.remove('activeNav'));
+
+                // Tambahkan kelas "activeNav" pada link yang sedang diklik
+                link.classList.add('activeNav');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
