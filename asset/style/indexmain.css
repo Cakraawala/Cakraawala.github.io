@@ -93,7 +93,7 @@ a:hover {
 /* Kalo di kecilin */
 @media(max-width:768px) {
     #homerow {
-        padding-top: 30px;
+        padding-top: 25px;
     }
 
     .home-img {
