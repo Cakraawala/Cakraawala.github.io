@@ -48,19 +48,26 @@
                             <a class="nav-link" href="index.html#portfolio" id="link4">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link activeNav dropdown-toggle
-                                href=" #" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle activeNav" href=" #" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Project
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/project/kecantikan">E-Commerce Kecantikan</a></li>
-                                <li><a class="dropdown-item" href="/project/hotel">Booking Kamar Hotel</a></li>
-                                <li><a class="dropdown-item" href="/project/absensi">Absensi</a></li>
-                                <li><a class="dropdown-item" href="/project/spp">Pembayaran SPP</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/website-kecantikan" class="
+                                        dropdown-item">E-Commerce Kecantikan</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/hotel-app"
+                                        class="dropdown-item">Booking
+                                        Kamar Hotel</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/absensi-app"
+                                        class="dropdown-item">Absensi</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/spp-app"
+                                        class="dropdown-item">Pembayaran
+                                        SPP</a>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/project/rest/">REST-API</a></li>
+                                <li><a class="dropdown-item" href="rest.html">REST-API</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -128,14 +135,14 @@
             <h2 class="mb-4">Usage</h2>
             <pre class="bg-dark p-3">
         {
-            "name" => "{{ $usage['name'] }}"
-            "username" => "{{ $usage['username'] }}"
-            "email" => {{ $usage['email'] ?? 'null' }}
+            "name" => "Angger Cakra"
+            "username" => "Cakraawala"
+            "email" => "Anggercakrawala@gmail.com"
             "api_keys" => [
-              "key" => "{{ $usage['key'] }}"
-              "start_time" => {{ $usage['start'] }}
-              "exp_time" => {{ $usage['exp'] }}
-              "limit" => {{ $usage['limit'] }}
+              "key" => "HZ5PB2a2OzuEsAGtayPlynsl6YZ8X4"
+              "start_time" => 1690617325
+              "exp_time" => 1693209325
+              "limit" => 100
             ]
         }</pre>
             <ol>
@@ -165,12 +172,12 @@ http://127.0.0.1:8000/api/users?apikey=yourapikey&username=Thomas Slebew </pre>
 http://127.0.0.1:8000/api/data?apikey=yourapikey&name=Angger </pre> -->
                     </li>
                     <li>Methode POST data.
-                        <pre class="bg-dark mt-1">|http://127.0.0.1:8000/api/data?apikey=yourapikey|</li></pre>
+                        <pre class="bg-dark mt-1">http://127.0.0.1:8000/api/data?apikey=yourapikey</li></pre>
                     <li>Methode PUT data for a Update.
                     <li>Methode SHOW data for showing data with parameter ID.
                     </li>
                     <li>Methode DELETE data
-                        <pre class="bg-dark mt-1">|http://127.0.0.1:8000/api/data/{ID}?apikey=yourapikey|</pre>
+                        <pre class="bg-dark mt-1">http://127.0.0.1:8000/api/data/{ID}?apikey=yourapikey</pre>
                     </li>
                 </ul>
             </ol>

@@ -50,15 +50,22 @@
                             <a class="nav-link" href="#portfolio" id="link4">Portfolio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle
-                                href=" #" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href=" #" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Project
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item">E-Commerce Kecantikan</a></li>
-                                <li><a class="dropdown-item">Booking Kamar Hotel</a></li>
-                                <li><a class="dropdown-item">Absensi</a></li>
-                                <li><a class="dropdown-item">Pembayaran SPP</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/website-kecantikan" class="
+                                        dropdown-item">E-Commerce Kecantikan</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/hotel-app"
+                                        class="dropdown-item">Booking
+                                        Kamar Hotel</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/absensi-app"
+                                        class="dropdown-item">Absensi</a></li>
+                                <li><a target="_blank" href="https://Github.com/Cakraawala/spp-app"
+                                        class="dropdown-item">Pembayaran
+                                        SPP</a>
+                                </li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -119,7 +126,9 @@
                                     </svg> LinkedIn
                                 </a>
                             </div>
-                            <a href="#portfolio" class="btn btn-primary px-3 mt-4 mb-3 rounded">Project saya</a>
+                            <a href="#portfolio" class="btn btn-sm btn-primary px-3 mt-4 mb-3 rounded">Project saya</a>
+                            <a href="#" class="btn btn-sm btn-outline-primary px-3 mt-4 mb-3 rounded">Download
+                                CV</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -546,16 +555,12 @@
 
     <script src="asset/bs/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Ambil semua elemen <a> di dalam navbar
         const navLinks = document.querySelectorAll('.navbar-nav a.nav-link');
 
-        // Tambahkan event listener untuk setiap link
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
-                // Hapus kelas "active" dari semua link
                 navLinks.forEach(link => link.classList.remove('activeNav'));
 
-                // Tambahkan kelas "activeNav" pada link yang sedang diklik
                 link.classList.add('activeNav');
             });
         });
