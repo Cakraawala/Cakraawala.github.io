@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Login dulu dong</title>
@@ -13,6 +14,7 @@
             height: 100vh;
             margin: 0;
         }
+
         #login-form {
             background-color: #fff;
             border-radius: 8px;
@@ -20,10 +22,12 @@
             text-align: center;
             padding: 20px;
         }
+
         #login-form h2 {
             color: black;
             font-size: 24px;
         }
+
         #login-form input[type="text"],
         #login-form input[type="password"] {
             width: 100%;
@@ -32,6 +36,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         #login-form button {
             background-color: #f53649;
             color: #fff;
@@ -41,11 +46,13 @@
             cursor: pointer;
             width: 100%;
         }
+
         #login-form button:hover {
             background-color: #d41a3f;
         }
     </style>
 </head>
+
 <body>
     <div id="login-form">
         <h2>Login dulu lah!</h2>
@@ -64,7 +71,7 @@
             const password = document.getElementById('password').value;
 
             // Implementasikan logika login di sini
-            if (username === 'mieayam' && password === '05062022') {
+            if ((username).toLowerCase() === 'mie ayam' && password === '05062022') {
                 // Simpan status login ke cookie
                 document.cookie = "isLoggedIn=true; path=/";
                 // Redirect ke halaman Dashboard (index.html)
@@ -75,4 +82,5 @@
         });
     </script>
 </body>
+
 </html>
