@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0A0A0A;
+  color: #FAFAFA;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3B82F6;
+}
+
+/* Selection */
+::selection {
+  background-color: #3B82F620;
+  color: #60A5FA;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-white via-accent to-white bg-clip-text text-transparent;
+  background-size: 200% auto;
+  animation: shimmer 6s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
+/* Glow utilities */
+.glow-primary {
+  box-shadow: 0 0 40px #3B82F620;
+}
+
+.glow-accent {
+  box-shadow: 0 0 40px #60A5FA18;
+}
+
+/* Section base */
+.section-padding {
+  @apply px-6 py-24 md:px-12 lg:px-24;
+}
+
+/* Luxury surface card */
+.card-surface {
+  @apply bg-surface border border-line rounded-2xl;
+}
