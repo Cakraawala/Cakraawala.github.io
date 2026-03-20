@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     description: "Developer & Designer portfolio",
     type: "website",
   },
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
