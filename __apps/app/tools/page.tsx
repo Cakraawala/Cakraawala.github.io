@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import {
   Calculator,
   Weight,
@@ -23,10 +23,16 @@ import {
   Flame,
   ArrowLeftRight,
   HelpCircle,
+  Wifi,
+  Search,
+  X,
 } from "lucide-react";
 
 type Category = "all" | "tool" | "minigame";
 type Status = "ready" | "soon";
+
+const ALL_TAGS = ["converter", "generator", "formatter", "decoder", "encoder", "crypto", "text", "math", "network", "utility", "team", "fun", "game"] as const;
+type Tag = typeof ALL_TAGS[number];
 
 const items: {
   label: string;
@@ -35,6 +41,7 @@ const items: {
   href: string;
   status: Status;
   category: Category;
+  tags: Tag[];
 }[] = [
   {
     label: "Calculator",
@@ -43,6 +50,7 @@ const items: {
     href: "/tools/calculator",
     status: "ready",
     category: "tool",
+    tags: ["utility", "math"],
   },
   {
     label: "Weight Converter",
@@ -51,6 +59,7 @@ const items: {
     href: "/tools/weight-converter",
     status: "ready",
     category: "tool",
+    tags: ["converter"],
   },
   {
     label: "Timestamp Converter",
@@ -59,6 +68,7 @@ const items: {
     href: "/tools/timestamp",
     status: "ready",
     category: "tool",
+    tags: ["converter", "utility"],
   },
   {
     label: "Color Picker",
@@ -67,6 +77,7 @@ const items: {
     href: "/tools/color-picker",
     status: "ready",
     category: "tool",
+    tags: ["converter", "utility"],
   },
   {
     label: "Hash Generator",
@@ -75,6 +86,7 @@ const items: {
     href: "/tools/hash-generator",
     status: "ready",
     category: "tool",
+    tags: ["generator", "crypto", "text"],
   },
   {
     label: "JSON Formatter",
@@ -83,6 +95,7 @@ const items: {
     href: "/tools/json-formatter",
     status: "ready",
     category: "tool",
+    tags: ["formatter", "text", "utility"],
   },
   {
     label: "Unit Converter",
@@ -91,6 +104,7 @@ const items: {
     href: "/tools/unit-converter",
     status: "ready",
     category: "tool",
+    tags: ["converter"],
   },
   {
     label: "Temperature Converter",
@@ -99,6 +113,7 @@ const items: {
     href: "/tools/temperature",
     status: "ready",
     category: "tool",
+    tags: ["converter"],
   },
   {
     label: "Base Converter",
@@ -107,6 +122,7 @@ const items: {
     href: "/tools/base-converter",
     status: "ready",
     category: "tool",
+    tags: ["converter", "math"],
   },
   {
     label: "Timezone Converter",
@@ -115,6 +131,7 @@ const items: {
     href: "/tools/timezone",
     status: "ready",
     category: "tool",
+    tags: ["converter", "network"],
   },
   {
     label: "Password Generator",
@@ -123,6 +140,7 @@ const items: {
     href: "/tools/password-generator",
     status: "ready",
     category: "tool",
+    tags: ["generator", "crypto"],
   },
   {
     label: "URL Encoder / Decoder",
@@ -131,22 +149,34 @@ const items: {
     href: "/tools/url-encoder",
     status: "ready",
     category: "tool",
+    tags: ["encoder", "decoder", "text"],
   },
   {
     label: "JWT Decoder",
     desc: "Decode dan inspect payload JWT token tanpa verifikasi.",
     icon: FileKey,
     href: "/tools/jwt-decoder",
-    status: "soon",
+    status: "ready",
     category: "tool",
+    tags: ["decoder", "crypto", "text"],
   },
   {
     label: "Random Picker",
-    desc: "Pilih item acak dari daftar yang kamu masukkan sendiri.",
+    desc: "Pilih item acak dari daftar - dengan pembagian tim & balancing gender.",
     icon: Shuffle,
     href: "/tools/random-picker",
-    status: "soon",
+    status: "ready",
     category: "tool",
+    tags: ["utility", "fun", "team"],
+  },
+  {
+    label: "Internet Speed Test",
+    desc: "Cek kecepatan download, upload, dan latency koneksi internetmu.",
+    icon: Wifi,
+    href: "/tools/internet-speed",
+    status: "ready",
+    category: "tool",
+    tags: ["network", "utility"],
   },
 
   // ── Minigames ─────────────────────────────────────────────────────────
@@ -157,6 +187,7 @@ const items: {
     href: "/tools/typing-speed",
     status: "soon",
     category: "minigame",
+    tags: ["game", "text"],
   },
   {
     label: "Memory Card Game",
@@ -165,6 +196,7 @@ const items: {
     href: "/tools/memory-card",
     status: "soon",
     category: "minigame",
+    tags: ["game"],
   },
   {
     label: "Mini Puzzle",
@@ -173,6 +205,7 @@ const items: {
     href: "/tools/mini-puzzle",
     status: "soon",
     category: "minigame",
+    tags: ["game"],
   },
   {
     label: "Truth Or Dare",
@@ -181,6 +214,7 @@ const items: {
     href: "/tools/truth-or-dare",
     status: "soon",
     category: "minigame",
+    tags: ["game", "fun"],
   },
   {
     label: "Would You Rather",
@@ -189,6 +223,7 @@ const items: {
     href: "/tools/would-you-rather",
     status: "soon",
     category: "minigame",
+    tags: ["game", "fun"],
   },
   {
     label: "Random Question",
@@ -197,6 +232,7 @@ const items: {
     href: "/tools/random-question",
     status: "soon",
     category: "minigame",
+    tags: ["game", "fun"],
   },
 ];
 
@@ -208,9 +244,37 @@ const tabs: { label: string; value: Category }[] = [
 
 export default function ToolsPage() {
   const [active, setActive] = useState<Category>("all");
+  const [search, setSearch] = useState("");
+  const [selectedTags, setSelectedTags] = useState<Tag[]>([]);
 
-  const filtered =
-    active === "all" ? items : items.filter((i) => i.category === active);
+  const toggleTag = (tag: Tag) =>
+    setSelectedTags((prev) =>
+      prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]
+    );
+
+  const clearFilters = () => {
+    setSearch("");
+    setSelectedTags([]);
+    setActive("all");
+  };
+
+  const filtered = useMemo(() => {
+    return items.filter((item) => {
+      const matchCat = active === "all" || item.category === active;
+      const q = search.toLowerCase();
+      const matchSearch =
+        q === "" ||
+        item.label.toLowerCase().includes(q) ||
+        item.desc.toLowerCase().includes(q) ||
+        item.tags.some((t) => t.includes(q));
+      const matchTags =
+        selectedTags.length === 0 ||
+        selectedTags.some((t) => item.tags.includes(t));
+      return matchCat && matchSearch && matchTags;
+    });
+  }, [active, search, selectedTags]);
+
+  const hasFilter = search !== "" || selectedTags.length > 0 || active !== "all";
 
   return (
     <main className="min-h-screen bg-bg">
@@ -224,7 +288,28 @@ export default function ToolsPage() {
           <div className="mt-4 h-px w-full bg-line" />
         </div>
 
-        <div className="flex gap-2 mb-8 flex-wrap">
+        {/* Search bar */}
+        <div className="relative mb-4">
+          <Search size={15} className="absolute left-4 top-1/2 -translate-y-1/2 text-muted/50 pointer-events-none" />
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Cari tool berdasarkan nama, deskripsi, atau tag..."
+            className="w-full bg-surface border border-line rounded-xl pl-10 pr-10 py-2.5 text-soft text-sm font-mono focus:outline-none focus:border-white/20 transition-colors placeholder:text-muted/30"
+          />
+          {search && (
+            <button
+              onClick={() => setSearch("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-soft transition-colors"
+            >
+              <X size={14} />
+            </button>
+          )}
+        </div>
+
+        {/* Category tabs */}
+        <div className="flex items-center gap-2 mb-4 flex-wrap">
           {tabs.map((tab) => (
             <button
               key={tab.value}
@@ -243,52 +328,112 @@ export default function ToolsPage() {
               </span>
             </button>
           ))}
+          {hasFilter && (
+            <button
+              onClick={clearFilters}
+              className="ml-auto flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-mono border border-red-400/20 text-red-400/60 hover:text-red-400 hover:border-red-400/40 transition-all"
+            >
+              <X size={11} /> Reset filter
+            </button>
+          )}
         </div>
 
-        {/* Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((item) => {
-            const Icon = item.icon;
+        {/* Tag multi-select */}
+        <div className="flex flex-wrap gap-1.5 mb-8">
+          {ALL_TAGS.map((tag) => {
+            const isActive = selectedTags.includes(tag);
             return (
-              <Link
-                key={item.href}
-                href={item.status === "ready" ? item.href : "#"}
-                className={`group relative p-5 rounded-2xl bg-surface border border-line transition-all duration-300 flex flex-col gap-3 ${
-                  item.status === "ready"
-                    ? "hover:border-white/10 hover:-translate-y-1 cursor-pointer"
-                    : "opacity-50 cursor-not-allowed pointer-events-none"
+              <button
+                key={tag}
+                onClick={() => toggleTag(tag)}
+                className={`px-3 py-1 rounded-full text-[11px] font-mono border transition-all duration-200 ${
+                  isActive
+                    ? "bg-primary/15 border-primary/50 text-primary"
+                    : "bg-surface border-line text-muted/50 hover:text-muted hover:border-white/10"
                 }`}
               >
-                {item.category === "minigame" && (
-                  <span className="absolute top-4 left-4 text-[9px] font-mono text-amber-400/70 border border-amber-400/20 bg-amber-400/5 rounded-full px-2 py-0.5">
-                    game
-                  </span>
-                )}
-
-                {item.status === "soon" ? (
-                  <span className="absolute top-4 right-4 text-[10px] font-mono text-muted/50 border border-line rounded-full px-2 py-0.5">
-                    soon
-                  </span>
-                ) : (
-                  <span className="absolute top-4 right-4 text-[10px] font-mono text-primary border border-primary/20 bg-primary/5 rounded-full px-2 py-0.5">
-                    ready
-                  </span>
-                )}
-
-                <div className="w-9 h-9 rounded-xl bg-bg border border-line flex items-center justify-center text-primary group-hover:border-primary/30 transition-colors">
-                  <Icon size={17} />
-                </div>
-
-                <div>
-                  <h2 className="font-semibold text-soft text-sm mb-1 group-hover:text-white transition-colors">
-                    {item.label}
-                  </h2>
-                  <p className="text-muted text-xs leading-relaxed">{item.desc}</p>
-                </div>
-              </Link>
+                {isActive && <span className="mr-1">✓</span>}#{tag}
+              </button>
             );
           })}
         </div>
+
+        {/* Result count when filtering */}
+        {hasFilter && (
+          <p className="text-xs text-muted font-mono mb-4">
+            {filtered.length} hasil dari {items.length} tools
+          </p>
+        )}
+
+        {/* Grid */}
+        {filtered.length === 0 ? (
+          <div className="text-center py-20">
+            <p className="text-muted font-mono text-sm">Tidak ada tool yang cocok.</p>
+            <button onClick={clearFilters} className="mt-3 text-primary text-xs font-mono hover:underline">
+              Reset filter
+            </button>
+          </div>
+        ) : (
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {filtered.map((item) => {
+              const Icon = item.icon;
+              return (
+                <Link
+                  key={item.href}
+                  href={item.status === "ready" ? item.href : "#"}
+                  className={`group relative p-5 rounded-2xl bg-surface border border-line transition-all duration-300 flex flex-col gap-3 ${
+                    item.status === "ready"
+                      ? "hover:border-white/10 hover:-translate-y-1 cursor-pointer"
+                      : "opacity-50 cursor-not-allowed pointer-events-none"
+                  }`}
+                >
+                  {item.category === "minigame" && (
+                    <span className="absolute top-4 left-4 text-[9px] font-mono text-amber-400/70 border border-amber-400/20 bg-amber-400/5 rounded-full px-2 py-0.5">
+                      game
+                    </span>
+                  )}
+
+                  {item.status === "soon" ? (
+                    <span className="absolute top-4 right-4 text-[10px] font-mono text-muted/50 border border-line rounded-full px-2 py-0.5">
+                      soon
+                    </span>
+                  ) : (
+                    <span className="absolute top-4 right-4 text-[10px] font-mono text-primary border border-primary/20 bg-primary/5 rounded-full px-2 py-0.5">
+                      ready
+                    </span>
+                  )}
+
+                  <div className="w-9 h-9 rounded-xl bg-bg border border-line flex items-center justify-center text-primary group-hover:border-primary/30 transition-colors">
+                    <Icon size={17} />
+                  </div>
+
+                  <div className="flex-1">
+                    <h2 className="font-semibold text-soft text-sm mb-1 group-hover:text-white transition-colors">
+                      {item.label}
+                    </h2>
+                    <p className="text-muted text-xs leading-relaxed">{item.desc}</p>
+                  </div>
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    {item.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className={`text-[9px] font-mono px-1.5 py-0.5 rounded-md border ${
+                          selectedTags.includes(tag)
+                            ? "text-primary border-primary/30 bg-primary/5"
+                            : "text-muted/30 border-line/40"
+                        }`}
+                      >
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        )}
       </div>
     </main>
   );

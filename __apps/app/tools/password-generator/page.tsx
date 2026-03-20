@@ -12,7 +12,7 @@ const CHARS = {
 };
 
 function calcStrength(password: string): { score: number; label: string; color: string } {
-  if (!password) return { score: 0, label: "—", color: "bg-line" };
+  if (!password) return { score: 0, label: "-", color: "bg-line" };
   let score = 0;
   if (password.length >= 8)  score++;
   if (password.length >= 12) score++;
