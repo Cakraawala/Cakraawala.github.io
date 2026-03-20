@@ -182,10 +182,10 @@ const items: {
   // ── Minigames ─────────────────────────────────────────────────────────
   {
     label: "Typing Speed Test",
-    desc: "Uji kecepatan & akurasi mengetikmu dalam waktu singkat.",
+    desc: "Uji kecepatan & akurasi mengetikmu - Indonesia, English, atau campur.",
     icon: Keyboard,
     href: "/tools/typing-speed",
-    status: "soon",
+    status: "ready",
     category: "minigame",
     tags: ["game", "text"],
   },
