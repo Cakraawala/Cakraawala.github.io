@@ -1,0 +1,2406 @@
+{
+  "truths": [
+    {
+      "id": 1,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa makanan favorit kamu?",
+      "en": "What is your favorite food?"
+    },
+    {
+      "id": 2,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa hobi yang paling kamu suka?",
+      "en": "What is your favorite hobby?"
+    },
+    {
+      "id": 3,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Film apa yang paling sering kamu tonton ulang?",
+      "en": "What movie have you watched the most times?"
+    },
+    {
+      "id": 4,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Kalau liburan gratis, mau pergi ke mana?",
+      "en": "If you had a free vacation, where would you go?"
+    },
+    {
+      "id": 5,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa aplikasi yang paling sering kamu buka di hp?",
+      "en": "What app do you open most often on your phone?"
+    },
+    {
+      "id": 6,
+      "level": "easy",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Hal paling aneh yang pernah kamu makan?",
+      "en": "What is the weirdest thing you have ever eaten?"
+    },
+    {
+      "id": 7,
+      "level": "easy",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Kalau kamu jadi hewan, mau jadi apa?",
+      "en": "If you were an animal, what would you be?"
+    },
+    {
+      "id": 8,
+      "level": "easy",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa bakat tersembunyi kamu yang jarang orang tahu?",
+      "en": "What is a hidden talent you have that few people know about?"
+    },
+    {
+      "id": 9,
+      "level": "easy",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Siapa artis atau seleb yang paling kamu idolakan?",
+      "en": "Who is the celebrity you admire the most?"
+    },
+    {
+      "id": 10,
+      "level": "easy",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa kebiasaan aneh yang kamu lakukan sebelum tidur?",
+      "en": "What weird habit do you have before sleeping?"
+    },
+    {
+      "id": 11,
+      "level": "easy",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa teman yang paling kamu percaya?",
+      "en": "Who is the friend you trust the most?"
+    },
+    {
+      "id": 12,
+      "level": "easy",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu berbohong kepada sahabat kamu?",
+      "en": "Have you ever lied to your best friend?"
+    },
+    {
+      "id": 13,
+      "level": "easy",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa orang pertama yang kamu hubungi saat ada masalah?",
+      "en": "Who is the first person you call when you have a problem?"
+    },
+    {
+      "id": 14,
+      "level": "easy",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu pura-pura sakit untuk menghindari acara sosial?",
+      "en": "Have you ever pretended to be sick to avoid a social event?"
+    },
+    {
+      "id": 15,
+      "level": "easy",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu sukai dari teman-teman kamu sekarang?",
+      "en": "What do you love most about your current friends?"
+    },
+    {
+      "id": 16,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Momen paling memalukan dalam hidup kamu?",
+      "en": "What is your most embarrassing moment?"
+    },
+    {
+      "id": 17,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu jatuh di depan banyak orang? Ceritakan!",
+      "en": "Have you ever fallen in front of a crowd? Tell us!"
+    },
+    {
+      "id": 18,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa hal paling konyol yang pernah kamu lakukan saat mabuk atau mengantuk?",
+      "en": "What is the silliest thing you have done while drunk or sleepy?"
+    },
+    {
+      "id": 19,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu salah sebut nama orang di depan umum?",
+      "en": "Have you ever called someone by the wrong name in public?"
+    },
+    {
+      "id": 20,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa kebohongan kecil yang pernah kamu ucapkan tapi ketahuan?",
+      "en": "What small lie have you told that got caught?"
+    },
+    {
+      "id": 21,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa ketakutan terbesar kamu?",
+      "en": "What is your biggest fear?"
+    },
+    {
+      "id": 22,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu sesali dalam hidup?",
+      "en": "What is the thing you regret most in life?"
+    },
+    {
+      "id": 23,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Kalau bisa mengubah satu hal dari masa lalu, apa itu?",
+      "en": "If you could change one thing from your past, what would it be?"
+    },
+    {
+      "id": 24,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa mimpi terbesar yang belum berani kamu kejar?",
+      "en": "What is the biggest dream you haven't dared to pursue?"
+    },
+    {
+      "id": 25,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa yang membuat kamu menangis terakhir kali?",
+      "en": "What made you cry the last time you cried?"
+    },
+    {
+      "id": 26,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu tidak suka dari diri sendiri?",
+      "en": "What is something you dislike most about yourself?"
+    },
+    {
+      "id": 27,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu merasa sangat kesepian? Kapan itu?",
+      "en": "Have you ever felt extremely lonely? When was that?"
+    },
+    {
+      "id": 28,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling sulit kamu maafkan dari seseorang?",
+      "en": "What is the hardest thing you have had to forgive someone for?"
+    },
+    {
+      "id": 29,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Siapa orang yang paling berdampak dalam hidupmu dan kenapa?",
+      "en": "Who has had the biggest impact on your life and why?"
+    },
+    {
+      "id": 30,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Kalau tahu umur kamu tinggal sebulan, apa yang akan kamu lakukan?",
+      "en": "If you knew you only had a month to live, what would you do?"
+    },
+    {
+      "id": 31,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Siapa cinta pertama kamu?",
+      "en": "Who was your first love?"
+    },
+    {
+      "id": 32,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Kapan terakhir kali kamu naksir seseorang?",
+      "en": "When was the last time you had a crush on someone?"
+    },
+    {
+      "id": 33,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa tipe orang yang bikin kamu langsung tertarik?",
+      "en": "What type of person instantly attracts you?"
+    },
+    {
+      "id": 34,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Ciuman pertama kamu dengan siapa dan di mana?",
+      "en": "Who was your first kiss with and where did it happen?"
+    },
+    {
+      "id": 35,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu naksir seseorang yang sudah punya pasangan?",
+      "en": "Have you ever had a crush on someone who was already in a relationship?"
+    },
+    {
+      "id": 36,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa hal romantis yang paling kamu inginkan dari pasangan?",
+      "en": "What is the most romantic thing you want from a partner?"
+    },
+    {
+      "id": 37,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apakah kamu percaya cinta pada pandangan pertama?",
+      "en": "Do you believe in love at first sight?"
+    },
+    {
+      "id": 38,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu rindukan dari mantan?",
+      "en": "What do you miss most about your ex?"
+    },
+    {
+      "id": 39,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu menyatakan cinta duluan? Bagaimana hasilnya?",
+      "en": "Have you ever confessed your feelings first? How did it go?"
+    },
+    {
+      "id": 40,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apakah ada orang di sini yang kamu suka secara diam-diam?",
+      "en": "Is there someone here you secretly like?"
+    },
+    {
+      "id": 41,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu takutkan dalam sebuah hubungan?",
+      "en": "What are you most afraid of in a relationship?"
+    },
+    {
+      "id": 42,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu di-ghosting? Bagaimana perasaanmu?",
+      "en": "Have you ever been ghosted? How did it make you feel?"
+    },
+    {
+      "id": 43,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa red flag terbesar yang pernah kamu abaikan dalam hubungan?",
+      "en": "What was the biggest red flag you ever ignored in a relationship?"
+    },
+    {
+      "id": 44,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Kalau bisa kencan dengan siapa saja di dunia ini, kamu pilih siapa?",
+      "en": "If you could go on a date with anyone in the world, who would you choose?"
+    },
+    {
+      "id": 45,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa kebiasaan pasangan yang bikin kamu tidak nyaman?",
+      "en": "What partner habit makes you most uncomfortable?"
+    },
+    {
+      "id": 46,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Berapa body count kamu?",
+      "en": "What is your body count?"
+    },
+    {
+      "id": 47,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu berbohong dalam hubungan?",
+      "en": "Have you ever lied in a relationship?"
+    },
+    {
+      "id": 48,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "en": "Have you ever had feelings for more than one person at the same time?",
+      "id_text": "Pernahkah kamu punya perasaan ke lebih dari satu orang di waktu yang sama?"
+    },
+    {
+      "id": 49,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa fantasi terliar yang pernah ada di pikiran kamu?",
+      "en": "What is the wildest fantasy you have ever had?"
+    },
+    {
+      "id": 50,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu selingkuh atau hampir selingkuh?",
+      "en": "Have you ever cheated or almost cheated on someone?"
+    },
+    {
+      "id": 51,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apakah kamu pernah melakukan hal yang disesali setelah minum alkohol?",
+      "en": "Have you ever done something you regretted after drinking alcohol?"
+    },
+    {
+      "id": 52,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa hal paling nekat yang pernah kamu lakukan karena suka seseorang?",
+      "en": "What is the most daring thing you have done because you liked someone?"
+    },
+    {
+      "id": 53,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu mengirim pesan atau foto yang menyesal kamu kirim?",
+      "en": "Have you ever sent a message or photo you later regretted sending?"
+    },
+    {
+      "id": 54,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa tempat paling tidak biasa yang pernah kamu kunjungi bersama pasangan?",
+      "en": "What is the most unusual place you have been with a partner?"
+    },
+    {
+      "id": 55,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu PDKT dengan dua orang sekaligus? Bagaimana ceritanya?",
+      "en": "Have you ever pursued two people at the same time? Tell us about it."
+    },
+    {
+      "id": 56,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa hal terpanas yang pernah seseorang katakan kepadamu?",
+      "en": "What is the hottest thing someone has ever said to you?"
+    },
+    {
+      "id": 57,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Kalau boleh jujur, siapa di grup ini yang paling kamu anggap menarik?",
+      "en": "If you had to be honest, who in this group do you find most attractive?"
+    },
+    {
+      "id": 58,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu cium orang yang sudah punya pasangan?",
+      "en": "Have you ever kissed someone who was already in a relationship?"
+    },
+    {
+      "id": 59,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa hal paling liar yang pernah kamu lakukan saat pesta?",
+      "en": "What is the wildest thing you have ever done at a party?"
+    },
+    {
+      "id": 60,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu punya perasaan ke teman sendiri tapi tidak berani bilang?",
+      "en": "Have you ever had feelings for a friend but never dared to say it?"
+    },
+    {
+      "id": 61,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang belum pernah kamu ceritakan ke siapa pun sampai sekarang?",
+      "en": "What is something you have never told anyone until now?"
+    },
+    {
+      "id": 62,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa sisi gelap dari dirimu yang jarang orang tahu?",
+      "en": "What is a dark side of yourself that few people know about?"
+    },
+    {
+      "id": 63,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu benci seseorang dengan sangat mendalam? Siapa dan kenapa?",
+      "en": "Have you ever deeply hated someone? Who and why?"
+    },
+    {
+      "id": 64,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal paling egois yang pernah kamu lakukan kepada orang lain?",
+      "en": "What is the most selfish thing you have ever done to someone?"
+    },
+    {
+      "id": 65,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu merusak hubungan seseorang secara sengaja atau tidak?",
+      "en": "Have you ever ruined someone else's relationship, intentionally or not?"
+    },
+    {
+      "id": 66,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang bikin kamu merasa paling malu kalau orang tua tahu?",
+      "en": "What would embarrass you most if your parents found out?"
+    },
+    {
+      "id": 67,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa keputusan hidup kamu yang paling banyak orang pertanyakan?",
+      "en": "What life decision of yours do most people question?"
+    },
+    {
+      "id": 68,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Kalau bisa memilih ulang, apakah kamu akan tetap bersama orang yang sama sekarang?",
+      "en": "If you could choose again, would you still be with the same person you are with now?"
+    },
+    {
+      "id": 69,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu bohong besar yang mengubah jalannya sesuatu?",
+      "en": "Have you ever told a big lie that changed the course of something?"
+    },
+    {
+      "id": 70,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang kamu tidak akan pernah maafkan dari seseorang?",
+      "en": "What is something you would never forgive someone for?"
+    },
+    {
+      "id": 71,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Superpower apa yang paling kamu inginkan?",
+      "en": "What superpower would you most want to have?"
+    },
+    {
+      "id": 72,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau hidup kamu jadi film, genrenya apa?",
+      "en": "If your life were a movie, what genre would it be?"
+    },
+    {
+      "id": 73,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal paling tidak berguna yang kamu beli tapi tidak menyesal?",
+      "en": "What is the most useless thing you have bought and don't regret?"
+    },
+    {
+      "id": 74,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau bisa makan satu makanan selamanya, makan apa?",
+      "en": "If you could eat only one food forever, what would it be?"
+    },
+    {
+      "id": 75,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal paling konyol yang pernah kamu percaya waktu kecil?",
+      "en": "What is the silliest thing you believed as a child?"
+    },
+    {
+      "id": 76,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Siapa karakter film atau serial yang paling mirip dengan kepribadianmu?",
+      "en": "Which movie or TV character is most like your personality?"
+    },
+    {
+      "id": 77,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal aneh yang kamu lakukan saat sendirian di rumah?",
+      "en": "What weird things do you do when you are alone at home?"
+    },
+    {
+      "id": 78,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Pernah tidak kamu nyanyi atau joget sendiri di kamar dan tiba-tiba ketahuan?",
+      "en": "Have you ever been caught singing or dancing alone in your room?"
+    },
+    {
+      "id": 79,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau kamu mendapat Rp 1 miliar hari ini, apa hal pertama yang kamu beli?",
+      "en": "If you received 1 million dollars today, what is the first thing you would buy?"
+    },
+    {
+      "id": 80,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal paling lucu yang pernah terjadi padamu saat makan di restoran?",
+      "en": "What is the funniest thing that has ever happened to you at a restaurant?"
+    },
+    {
+      "id": 81,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa di sini yang menurutmu paling sering drama?",
+      "en": "Who here do you think is the most dramatic?"
+    },
+    {
+      "id": 82,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa orang di grup ini yang kamu rasa paling cocok jadi pasanganmu?",
+      "en": "Who in this group do you think would be the best match for you?"
+    },
+    {
+      "id": 83,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu membicarakan seseorang di sini di belakang mereka?",
+      "en": "Have you ever talked about someone here behind their back?"
+    },
+    {
+      "id": 84,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Apa rahasia teman kamu yang kamu ketahui tapi belum pernah bilang ke siapa pun?",
+      "en": "What secret of a friend do you know but have never told anyone?"
+    },
+    {
+      "id": 85,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa di grup ini yang menurut kamu paling susah ditebak perasaannya?",
+      "en": "Who in this group is the most difficult to read emotionally?"
+    },
+    {
+      "id": 86,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu tidak jujur ke teman demi menjaga perasaannya?",
+      "en": "Have you ever been dishonest with a friend to protect their feelings?"
+    },
+    {
+      "id": 87,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa teman yang paling kamu kangeni kalau lama tidak ketemu?",
+      "en": "Which friend do you miss the most when you haven't seen them in a while?"
+    },
+    {
+      "id": 88,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Kalau harus pilih satu teman untuk jalan bareng selama setahun, siapa?",
+      "en": "If you had to pick one friend to travel with for a year, who would it be?"
+    },
+    {
+      "id": 89,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa teman yang paling kamu khawatirkan dalam hidupnya sekarang?",
+      "en": "Which friend are you most worried about in their current life?"
+    },
+    {
+      "id": 90,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Apa hal yang bikin kamu merasa paling dekat dengan teman-teman di sini?",
+      "en": "What makes you feel closest to the friends here?"
+    },
+    {
+      "id": 91,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa lagu yang tidak pernah bosan kamu dengarkan?",
+      "en": "What song never gets old for you?"
+    },
+    {
+      "id": 92,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Kamu lebih suka pantai atau gunung?",
+      "en": "Do you prefer the beach or the mountains?"
+    },
+    {
+      "id": 93,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa hal pertama yang kamu perhatikan dari seseorang?",
+      "en": "What is the first thing you notice about a person?"
+    },
+    {
+      "id": 94,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu buang angin di tempat umum dan pura-pura tidak tahu?",
+      "en": "Have you ever farted in public and pretended it wasn't you?"
+    },
+    {
+      "id": 95,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa hal paling memalukan yang pernah orang tua kamu lihat kamu lakukan?",
+      "en": "What is the most embarrassing thing your parents have caught you doing?"
+    },
+    {
+      "id": 96,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apakah kamu merasa bahagia dengan hidup kamu saat ini?",
+      "en": "Are you genuinely happy with your life right now?"
+    },
+    {
+      "id": 97,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang membuat kamu merasa tidak cukup baik?",
+      "en": "What makes you feel like you are not good enough?"
+    },
+    {
+      "id": 98,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Pernah tidak kamu stalking mantan di sosial media? Seberapa jauh?",
+      "en": "Have you ever stalked an ex on social media? How deep did you go?"
+    },
+    {
+      "id": 99,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa hal yang bikin kamu jatuh cinta ke seseorang?",
+      "en": "What is it that makes you fall in love with someone?"
+    },
+    {
+      "id": 100,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apakah kamu pernah berpacaran dengan seseorang hanya karena fisiknya?",
+      "en": "Have you ever dated someone purely because of their looks?"
+    },
+    {
+      "id": 101,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa tipe fisik yang paling membuat kamu tertarik?",
+      "en": "What physical type attracts you the most?"
+    },
+    {
+      "id": 102,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa yang membuat kamu kehilangan kepercayaan pada seseorang yang penting dalam hidupmu?",
+      "en": "What made you lose trust in someone important in your life?"
+    },
+    {
+      "id": 103,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu mengkhianati kepercayaan seseorang? Apa yang terjadi?",
+      "en": "Have you ever betrayed someone's trust? What happened?"
+    },
+    {
+      "id": 104,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa mimpi paling aneh yang masih kamu ingat sampai sekarang?",
+      "en": "What is the strangest dream you still remember?"
+    },
+    {
+      "id": 105,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau kamu bisa hidup di era mana saja, kamu pilih kapan?",
+      "en": "If you could live in any era, when would you choose?"
+    },
+    {
+      "id": 106,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa di grup ini yang paling mungkin jadi orang terkenal?",
+      "en": "Who in this group is most likely to become famous?"
+    },
+    {
+      "id": 107,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu iri dengan pencapaian teman kamu? Ceritakan.",
+      "en": "Have you ever felt jealous of a friend's achievement? Tell us."
+    },
+    {
+      "id": 108,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apakah kamu lebih suka cuaca panas atau dingin?",
+      "en": "Do you prefer hot or cold weather?"
+    },
+    {
+      "id": 109,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu mengirim pesan ke orang yang salah? Apa isinya?",
+      "en": "Have you ever sent a message to the wrong person? What did it say?"
+    },
+    {
+      "id": 110,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apakah ada hal yang kamu sembunyikan dari keluarga kamu sampai sekarang?",
+      "en": "Is there something you are hiding from your family right now?"
+    },
+    {
+      "id": 111,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa perpisahan tersulit yang pernah kamu alami?",
+      "en": "What was the hardest breakup you have ever been through?"
+    },
+    {
+      "id": 112,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa hal paling romantis yang pernah seseorang lakukan untukmu?",
+      "en": "What is the most romantic thing someone has done for you?"
+    },
+    {
+      "id": 113,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu melakukan sesuatu yang tidak pantas di kendaraan umum?",
+      "en": "Have you ever done something inappropriate on public transportation?"
+    },
+    {
+      "id": 114,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apakah kamu pernah jatuh cinta dengan lebih dari satu orang di waktu yang bersamaan?",
+      "en": "Have you ever been in love with more than one person at the same time?"
+    },
+    {
+      "id": 115,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling kamu takuti orang lain ketahui tentang kamu?",
+      "en": "What is the thing you are most afraid of others knowing about you?"
+    },
+    {
+      "id": 116,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau bisa punya satu keahlian instan, keahlian apa yang kamu pilih?",
+      "en": "If you could instantly have any skill, what would you choose?"
+    },
+    {
+      "id": 117,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa di sini yang paling cocok jadi pemimpin dan kenapa?",
+      "en": "Who here would make the best leader and why?"
+    },
+    {
+      "id": 118,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa hal yang selalu kamu bawa ke mana pun pergi?",
+      "en": "What is something you always carry with you everywhere?"
+    },
+    {
+      "id": 119,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa hal terburuk yang pernah terjadi padamu saat kencan?",
+      "en": "What is the worst thing that has ever happened to you on a date?"
+    },
+    {
+      "id": 120,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apakah kamu merasa cukup dicintai oleh orang-orang di sekitarmu?",
+      "en": "Do you feel loved enough by the people around you?"
+    },
+    {
+      "id": 121,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa sifat yang paling kamu benci dari diri sendiri dalam sebuah hubungan?",
+      "en": "What trait do you dislike most about yourself in a relationship?"
+    },
+    {
+      "id": 122,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa hal tergila yang pernah kamu lakukan untuk memenangkan hati seseorang?",
+      "en": "What is the craziest thing you have done to win someone's heart?"
+    },
+    {
+      "id": 123,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu merasa bahwa orang-orang di sekitarmu tidak benar-benar mengenalmu?",
+      "en": "Have you ever felt that the people around you don't truly know you?"
+    },
+    {
+      "id": 124,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal paling tidak masuk akal yang pernah kamu percayai?",
+      "en": "What is the most irrational thing you have ever believed?"
+    },
+    {
+      "id": 125,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa teman yang paling sering kamu mintai nasihat?",
+      "en": "Which friend do you ask for advice most often?"
+    },
+    {
+      "id": 126,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa hal yang bikin hari kamu langsung membaik?",
+      "en": "What instantly makes your day better?"
+    },
+    {
+      "id": 127,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu tertidur di tempat yang sangat tidak tepat?",
+      "en": "Have you ever fallen asleep somewhere very inappropriate?"
+    },
+    {
+      "id": 128,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang ingin kamu katakan kepada diri kamu 5 tahun yang lalu?",
+      "en": "What would you say to your 5-years-younger self?"
+    },
+    {
+      "id": 129,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apakah kamu percaya konsep soulmate?",
+      "en": "Do you believe in the concept of a soulmate?"
+    },
+    {
+      "id": 130,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Apa batasan terbesar kamu dalam sebuah hubungan?",
+      "en": "What is your biggest boundary in a relationship?"
+    },
+    {
+      "id": 131,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apakah ada keputusan yang kamu buat yang menyakiti orang lain secara diam-diam?",
+      "en": "Is there a decision you made that quietly hurt someone else?"
+    },
+    {
+      "id": 132,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau kamu bisa tahu satu hal tentang masa depan, apa yang ingin kamu ketahui?",
+      "en": "If you could know one thing about the future, what would you want to know?"
+    },
+    {
+      "id": 133,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Apa hal yang menurutmu orang lain tidak tahu tentang kamu?",
+      "en": "What do you think others don't know about you?"
+    },
+    {
+      "id": 134,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apakah kamu tipe orang yang suka merencanakan atau spontan?",
+      "en": "Are you more of a planner or a spontaneous person?"
+    },
+    {
+      "id": 135,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu salah masuk toilet? Apa yang terjadi?",
+      "en": "Have you ever entered the wrong bathroom? What happened?"
+    },
+    {
+      "id": 136,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa definisi sukses menurutmu dan seberapa dekat kamu dengan itu?",
+      "en": "What is your definition of success and how close are you to achieving it?"
+    },
+    {
+      "id": 137,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa cara kamu menunjukkan cinta yang paling khas?",
+      "en": "What is your most distinctive way of showing love?"
+    },
+    {
+      "id": 138,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu keluar malam tanpa memberitahu siapa pun ke mana kamu pergi?",
+      "en": "Have you ever gone out at night without telling anyone where you were going?"
+    },
+    {
+      "id": 139,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling bikin kamu merasa tidak aman dengan dirimu sendiri?",
+      "en": "What makes you feel most insecure about yourself?"
+    },
+    {
+      "id": 140,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Apa hal paling impulsif yang pernah kamu lakukan?",
+      "en": "What is the most impulsive thing you have ever done?"
+    },
+    {
+      "id": 141,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu merasa iri dengan kehidupan teman kamu di media sosial?",
+      "en": "Have you ever felt jealous of a friend's life on social media?"
+    },
+    {
+      "id": 142,
+      "level": "easy",
+      "category": ["general"],
+      "type": "truth",
+      "id_text": "Apa kebiasaan pagi yang selalu kamu lakukan?",
+      "en": "What is your morning routine you always do?"
+    },
+    {
+      "id": 143,
+      "level": "embarrassing",
+      "category": ["fun"],
+      "type": "truth",
+      "id_text": "Apa hal paling konyol yang pernah kamu googling?",
+      "en": "What is the silliest thing you have ever googled?"
+    },
+    {
+      "id": 144,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apakah ada seseorang yang kamu rasa belum pernah minta maaf kepadanya padahal seharusnya?",
+      "en": "Is there someone you feel you should have apologized to but never did?"
+    },
+    {
+      "id": 145,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "truth",
+      "id_text": "Apa kebiasaan yang bikin kamu jatuh cinta lebih dalam ke pasangan?",
+      "en": "What habit makes you fall deeper in love with your partner?"
+    },
+    {
+      "id": 146,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "truth",
+      "id_text": "Pernahkah kamu melakukan sesuatu yang melanggar aturan tapi tidak menyesal?",
+      "en": "Have you ever broken a rule and don't regret it?"
+    },
+    {
+      "id": 147,
+      "level": "advanced",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa hal yang paling susah kamu akui ke diri sendiri?",
+      "en": "What is the hardest thing to admit to yourself?"
+    },
+    {
+      "id": 148,
+      "level": "fun",
+      "category": ["random"],
+      "type": "truth",
+      "id_text": "Kalau kamu bisa hidup sebagai orang lain selama satu hari, siapa yang kamu pilih?",
+      "en": "If you could live as someone else for one day, who would you choose?"
+    },
+    {
+      "id": 149,
+      "level": "friends",
+      "category": ["social"],
+      "type": "truth",
+      "id_text": "Siapa di sini yang paling kamu rasa berubah banyak dari pertama kali kenal?",
+      "en": "Who here do you feel has changed the most since you first met them?"
+    },
+    {
+      "id": 150,
+      "level": "deep",
+      "category": ["personal"],
+      "type": "truth",
+      "id_text": "Apa satu hal yang ingin kamu ubah dari cara kamu diperlakukan oleh orang-orang di hidupmu?",
+      "en": "What is one thing you wish was different about how people in your life treat you?"
+    }
+  ],
+  "dares": [
+    {
+      "id": 1,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lakukan 10 push-up sekarang!",
+      "en": "Do 10 push-ups right now!"
+    },
+    {
+      "id": 2,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Berdirilah dengan satu kaki selama 30 detik.",
+      "en": "Stand on one leg for 30 seconds."
+    },
+    {
+      "id": 3,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Joget minimal 1 menit tanpa musik.",
+      "en": "Dance for at least 1 minute without music."
+    },
+    {
+      "id": 4,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lompat-lompat di tempat selama 20 detik.",
+      "en": "Jump in place for 20 seconds."
+    },
+    {
+      "id": 5,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Berjalan mundur selama 1 menit.",
+      "en": "Walk backwards for 1 minute."
+    },
+    {
+      "id": 6,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim pesan 'Halo, aku kangen kamu' ke kontak pertama di hp kamu.",
+      "en": "Send 'Hey, I miss you' to the first contact in your phone."
+    },
+    {
+      "id": 7,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Telepon seseorang dan nyanyikan lagu ulang tahun untuknya.",
+      "en": "Call someone and sing them happy birthday."
+    },
+    {
+      "id": 8,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Post foto selfie sekarang ke Instagram story kamu.",
+      "en": "Post a selfie right now to your Instagram story."
+    },
+    {
+      "id": 9,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim stiker lucu ke 3 orang berbeda di chat kamu.",
+      "en": "Send a funny sticker to 3 different people in your chat."
+    },
+    {
+      "id": 10,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Minta nomor telepon orang pertama yang kamu lihat di luar jendela.",
+      "en": "Ask for the phone number of the first person you see outside the window."
+    },
+    {
+      "id": 11,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Bicaralah seperti robot selama 3 ronde berikutnya.",
+      "en": "Speak like a robot for the next 3 rounds."
+    },
+    {
+      "id": 12,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Ceritakan lelucon dan buat semua orang tertawa.",
+      "en": "Tell a joke and make everyone laugh."
+    },
+    {
+      "id": 13,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Tirukan suara hewan yang dipilih orang lain.",
+      "en": "Imitate the sound of an animal chosen by someone else."
+    },
+    {
+      "id": 14,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Lakukan gerakan moonwalk melintasi ruangan.",
+      "en": "Do the moonwalk across the room."
+    },
+    {
+      "id": 15,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Tirukan gaya bicara dan sikap orang yang ada di sebelah kamu selama 2 menit.",
+      "en": "Imitate the speech and mannerisms of the person next to you for 2 minutes."
+    },
+    {
+      "id": 16,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Nyanyikan lagu favorit kamu dengan suara sekeras mungkin.",
+      "en": "Sing your favorite song as loud as you can."
+    },
+    {
+      "id": 17,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Buat wajah selucu mungkin dan foto, lalu jadikan foto profil kamu selama 1 jam.",
+      "en": "Make the funniest face possible, take a photo, and set it as your profile picture for 1 hour."
+    },
+    {
+      "id": 18,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Makan satu suap makanan dengan mata tertutup dan tebak makanan apa itu.",
+      "en": "Eat a spoonful of food blindfolded and guess what it is."
+    },
+    {
+      "id": 19,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Post status galau di WhatsApp kamu sekarang.",
+      "en": "Post a sad status on your WhatsApp right now."
+    },
+    {
+      "id": 20,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim pesan 'Aku suka kamu' ke mantan kamu.",
+      "en": "Send 'I like you' to your ex."
+    },
+    {
+      "id": 21,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Berikan pujian tulus kepada orang yang duduk di sebelah kamu.",
+      "en": "Give a sincere compliment to the person sitting next to you."
+    },
+    {
+      "id": 22,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Pegang tangan orang di sebelah kamu selama satu menit penuh.",
+      "en": "Hold the hand of the person beside you for a full minute."
+    },
+    {
+      "id": 23,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Tulis surat cinta singkat untuk seseorang di grup dan bacakan keras-keras.",
+      "en": "Write a short love letter to someone in the group and read it aloud."
+    },
+    {
+      "id": 24,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Bisikkan sesuatu yang manis ke telinga orang yang kamu pilih.",
+      "en": "Whisper something sweet into the ear of someone you choose."
+    },
+    {
+      "id": 25,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Lakukan tatap mata dengan seseorang tanpa berkedip selama 1 menit.",
+      "en": "Maintain eye contact with someone without blinking for 1 minute."
+    },
+    {
+      "id": 26,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Izinkan orang lain memilihkan pasangan untuk kamu di game berikutnya.",
+      "en": "Let someone else pick your partner for the next game."
+    },
+    {
+      "id": 27,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Ungkapkan tiga hal yang kamu suka dari seseorang di grup ini.",
+      "en": "Share three things you like about someone in this group."
+    },
+    {
+      "id": 28,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Kirim pesan 'Kamu cantik/ganteng banget hari ini' ke seseorang yang kamu suka.",
+      "en": "Send 'You look beautiful/handsome today' to someone you like."
+    },
+    {
+      "id": 29,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Duduk di pangkuan orang yang kamu pilih selama 1 ronde.",
+      "en": "Sit on the lap of someone you choose for 1 round."
+    },
+    {
+      "id": 30,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Peluk orang yang ada di sebelah kamu selama 10 detik.",
+      "en": "Hug the person beside you for 10 seconds."
+    },
+    {
+      "id": 31,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Minum sesuatu yang dipilih oleh orang lain di meja ini tanpa tahu isinya.",
+      "en": "Drink something chosen by someone else at the table without knowing what it is."
+    },
+    {
+      "id": 32,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Kirim pesan panas ke seseorang yang kamu pilih dari kontak kamu.",
+      "en": "Send a flirty message to someone you choose from your contacts."
+    },
+    {
+      "id": 33,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Pergi ke luar dan panggil nama orang yang kamu suka sekencang mungkin.",
+      "en": "Go outside and shout the name of someone you like as loud as possible."
+    },
+    {
+      "id": 34,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Lakukan tantangan body shot dengan orang yang kamu pilih.",
+      "en": "Do a body shot challenge with someone you choose."
+    },
+    {
+      "id": 35,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Ambil foto dengan pose paling menggoda dan share ke grup.",
+      "en": "Take a photo in your most seductive pose and share it to the group."
+    },
+    {
+      "id": 36,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Berikan lap dance selama 30 detik kepada orang yang dipilih.",
+      "en": "Give a 30-second lap dance to a person chosen by the group."
+    },
+    {
+      "id": 37,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Pakai pakaian orang lain yang ada di sini selama 2 ronde.",
+      "en": "Wear someone else's clothing here for 2 rounds."
+    },
+    {
+      "id": 38,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Biarkan orang lain mengunci hp kamu dengan password yang mereka pilih selama 10 menit.",
+      "en": "Let someone lock your phone with a password they choose for 10 minutes."
+    },
+    {
+      "id": 39,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Perlihatkan DM terbaru di Instagram kamu kepada semua orang.",
+      "en": "Show your most recent Instagram DM to everyone."
+    },
+    {
+      "id": 40,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Telepon seseorang dan katakan 'Aku sudah siap untuk kencan kita malam ini'.",
+      "en": "Call someone and say 'I'm ready for our date tonight'."
+    },
+    {
+      "id": 41,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ungkapkan perasaan jujur kamu tentang setiap orang di ruangan ini satu per satu.",
+      "en": "Share your honest feelings about each person in the room one by one."
+    },
+    {
+      "id": 42,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Minta maaf secara tulus kepada seseorang di sini yang pernah kamu sakiti.",
+      "en": "Sincerely apologize to someone here you once hurt."
+    },
+    {
+      "id": 43,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Biarkan orang lain baca semua notifikasi kamu hari ini.",
+      "en": "Let someone read all your notifications from today."
+    },
+    {
+      "id": 44,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ceritakan hal yang paling kamu sesali dalam 1 tahun terakhir kepada semua orang.",
+      "en": "Tell everyone the thing you regret most in the past year."
+    },
+    {
+      "id": 45,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Biarkan seseorang membaca 5 pesan terakhir di chat terprivate kamu.",
+      "en": "Let someone read the last 5 messages in your most private chat."
+    },
+    {
+      "id": 46,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ungkapkan satu kebenaran yang belum pernah kamu ceritakan kepada siapa pun.",
+      "en": "Reveal one truth you have never told anyone before."
+    },
+    {
+      "id": 47,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Berikan password hp kamu kepada seseorang dan biarkan mereka cek galeri 1 menit.",
+      "en": "Give your phone password to someone and let them check your gallery for 1 minute."
+    },
+    {
+      "id": 48,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Post foto paling jelek yang ada di galeri kamu ke Instagram story.",
+      "en": "Post the ugliest photo in your gallery to your Instagram story."
+    },
+    {
+      "id": 49,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Biarkan teman kamu menulis status apapun di sosmed kamu dan post sekarang.",
+      "en": "Let a friend write anything on your social media and post it now."
+    },
+    {
+      "id": 50,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Lakukan sesuatu yang membuat semua orang di ruangan ini terkejut.",
+      "en": "Do something that surprises everyone in the room."
+    },
+    {
+      "id": 51,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Gambar potret seseorang di sini hanya dalam 60 detik.",
+      "en": "Draw a portrait of someone here in just 60 seconds."
+    },
+    {
+      "id": 52,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Improvise sebuah puisi pendek tentang orang yang dipilih oleh grup.",
+      "en": "Improvise a short poem about someone chosen by the group."
+    },
+    {
+      "id": 53,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Peragakan adegan film romantis favoritmu tanpa dialog.",
+      "en": "Act out your favorite romantic movie scene without dialogue."
+    },
+    {
+      "id": 54,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Deskripsikan cara membuat mie instan seolah-olah kamu seorang chef bintang lima.",
+      "en": "Describe how to make instant noodles as if you are a five-star chef."
+    },
+    {
+      "id": 55,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Lakukan impressi tokoh terkenal pilihan grup selama 1 menit.",
+      "en": "Do an impression of a famous person chosen by the group for 1 minute."
+    },
+    {
+      "id": 56,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Buat iklan produk ngawur dalam 30 detik.",
+      "en": "Create a nonsense product advertisement in 30 seconds."
+    },
+    {
+      "id": 57,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Peragakan seekor hewan favorit kamu selama 1 menit tanpa suara.",
+      "en": "Act like your favorite animal for 1 minute without making sounds."
+    },
+    {
+      "id": 58,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Nyanyikan iklan produk apapun dengan penuh semangat.",
+      "en": "Sing any product commercial with full enthusiasm."
+    },
+    {
+      "id": 59,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Rekam video TikTok dadakan dan upload sekarang.",
+      "en": "Record a spontaneous TikTok video and upload it now."
+    },
+    {
+      "id": 60,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Jelaskan siapa kamu menggunakan hanya gerakan tubuh tanpa suara.",
+      "en": "Describe who you are using only body movements without sound."
+    },
+    {
+      "id": 61,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Baca dengan keras 5 pesan terakhir dari chat yang paling sering kamu buka.",
+      "en": "Read aloud the last 5 messages from your most frequently opened chat."
+    },
+    {
+      "id": 62,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Tampilkan foto yang ada di kamera terakhir kamu kepada semua orang.",
+      "en": "Show your last camera photo to everyone."
+    },
+    {
+      "id": 63,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim emoji terblush ke gebetan kamu sekarang.",
+      "en": "Send the most embarrassing emoji to your crush right now."
+    },
+    {
+      "id": 64,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Nyanyikan lagu anak-anak dengan gaya opera.",
+      "en": "Sing a children's song in opera style."
+    },
+    {
+      "id": 65,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Peragakan cara orang dewasa belajar TikTok dance.",
+      "en": "Act out how an adult learns a TikTok dance."
+    },
+    {
+      "id": 66,
+      "level": "physical",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lakukan plank selama 60 detik.",
+      "en": "Hold a plank for 60 seconds."
+    },
+    {
+      "id": 67,
+      "level": "physical",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Jalan jongkok mengelilingi ruangan satu kali.",
+      "en": "Walk in a squat position around the room once."
+    },
+    {
+      "id": 68,
+      "level": "physical",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lakukan 20 jumping jack sekarang.",
+      "en": "Do 20 jumping jacks right now."
+    },
+    {
+      "id": 69,
+      "level": "physical",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Angkat orang di sebelah kamu (jika memungkinkan dan aman).",
+      "en": "Lift the person beside you (if safe and possible)."
+    },
+    {
+      "id": 70,
+      "level": "physical",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lakukan gerakan yoga terpanjang yang kamu bisa selama 30 detik.",
+      "en": "Hold your best yoga pose for 30 seconds."
+    },
+    {
+      "id": 71,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Bicaralah dengan aksen asing selama 3 ronde.",
+      "en": "Speak in a foreign accent for the next 3 rounds."
+    },
+    {
+      "id": 72,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Tutup satu mata dan berbicara seperti bajak laut selama 2 ronde.",
+      "en": "Cover one eye and speak like a pirate for 2 rounds."
+    },
+    {
+      "id": 73,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Berikan high five ke setiap orang di ruangan sambil bilang 'Kamu hebat!'",
+      "en": "Give everyone in the room a high five while saying 'You are awesome!'"
+    },
+    {
+      "id": 74,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Ucapkan terima kasih yang tulus kepada tiga orang yang hadir karena alasan spesifik.",
+      "en": "Thank three people present for a specific reason sincerely."
+    },
+    {
+      "id": 75,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Tunjukkan tangkapan layar percakapan paling memalukan di hp kamu.",
+      "en": "Show the most embarrassing screenshot conversation on your phone."
+    },
+    {
+      "id": 76,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Kirim pesan kepada gebetan atau pasangan dengan kata 'Aku sayang kamu' sekarang.",
+      "en": "Send a message to your crush or partner saying 'I love you' right now."
+    },
+    {
+      "id": 77,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Rangkai bunga atau ornamen dari benda apapun yang ada di sekitar dan berikan ke seseorang.",
+      "en": "Make a flower or ornament from any objects around you and give it to someone."
+    },
+    {
+      "id": 78,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Lakukan gerakan dansa dengan orang yang kamu suka selama 1 lagu.",
+      "en": "Dance with the person you like for one song."
+    },
+    {
+      "id": 79,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Ceritakan kisah PDKT paling absurd yang pernah kamu alami.",
+      "en": "Tell the most absurd flirting story you have ever experienced."
+    },
+    {
+      "id": 80,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Minum minuman beralkohol tanpa menggunakan tangan.",
+      "en": "Drink an alcoholic beverage without using your hands."
+    },
+    {
+      "id": 81,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Hubungi seseorang yang sudah lama tidak kamu kontak dan minta maaf atas sesuatu.",
+      "en": "Contact someone you haven't spoken to in a long time and apologize for something."
+    },
+    {
+      "id": 82,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Perlihatkan isi dompet kamu kepada semua orang.",
+      "en": "Show the contents of your wallet to everyone."
+    },
+    {
+      "id": 83,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Lakukan beatbox selama 30 detik.",
+      "en": "Do beatbox for 30 seconds."
+    },
+    {
+      "id": 84,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Ceritakan lelucon paling garing yang kamu tahu.",
+      "en": "Tell the worst dad joke you know."
+    },
+    {
+      "id": 85,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Tampilkan playlist musik kamu kepada semua orang.",
+      "en": "Show everyone your music playlist."
+    },
+    {
+      "id": 86,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Pijat bahu orang di sebelah kamu selama 1 menit.",
+      "en": "Give the person beside you a 1-minute shoulder massage."
+    },
+    {
+      "id": 87,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Cium tangan orang yang kamu pilih dengan sopan.",
+      "en": "Kiss the hand of someone you choose respectfully."
+    },
+    {
+      "id": 88,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Biarkan orang lain membaca 3 pesan terakhir kamu dengan mantan.",
+      "en": "Let someone read your last 3 messages with your ex."
+    },
+    {
+      "id": 89,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Berikan pidato spontan 1 menit tentang mengapa kamu adalah orang yang luar biasa.",
+      "en": "Give a spontaneous 1-minute speech about why you are an amazing person."
+    },
+    {
+      "id": 90,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Buat koreografi joget 30 detik dan ajarkan ke semua orang.",
+      "en": "Create a 30-second dance choreography and teach it to everyone."
+    },
+    {
+      "id": 91,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Pura-pura menjadi penguin dan berjalan keliling ruangan.",
+      "en": "Pretend to be a penguin and walk around the room."
+    },
+    {
+      "id": 92,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Buat wajah sedih dan minta semua orang tertawa tanpa kamu ketawa.",
+      "en": "Make a sad face and make everyone laugh without laughing yourself."
+    },
+    {
+      "id": 93,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim voice note dengan kamu menyanyi ke grup WhatsApp keluarga kamu.",
+      "en": "Send a voice note of you singing to your family WhatsApp group."
+    },
+    {
+      "id": 94,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Tukar nomor kontak dengan seseorang yang kamu rasa paling menarik di sini.",
+      "en": "Exchange contact numbers with the person you find most attractive here."
+    },
+    {
+      "id": 95,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Pilihkan seseorang di grup dan katakan satu hal yang paling kamu kagumi darinya.",
+      "en": "Choose someone in the group and say the one thing you admire most about them."
+    },
+    {
+      "id": 96,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Tunjukkan foto paling malu yang ada di galeri kamu kepada satu orang.",
+      "en": "Show your most embarrassing photo in your gallery to one person."
+    },
+    {
+      "id": 97,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Kirim voice note menggoda ke seseorang yang kamu pilih dari kontak kamu.",
+      "en": "Send a flirtatious voice note to someone you pick from your contacts."
+    },
+    {
+      "id": 98,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Tunjukkan histori pencarian terakhir di Google kamu kepada semua orang.",
+      "en": "Show your latest Google search history to everyone."
+    },
+    {
+      "id": 99,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ceritakan tentang hal paling buruk yang pernah kamu lakukan kepada seseorang.",
+      "en": "Tell about the worst thing you have ever done to someone."
+    },
+    {
+      "id": 100,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Nyanyikan lagu dengan mengganti semua liriknya dengan kata 'nasi goreng'.",
+      "en": "Sing a song replacing all the lyrics with the words 'fried rice'."
+    },
+    {
+      "id": 101,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Lakukan 15 squat sekarang.",
+      "en": "Do 15 squats right now."
+    },
+    {
+      "id": 102,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim foto selfie polos tanpa filter ke grup main kamu.",
+      "en": "Send a plain selfie with no filter to your friend group chat."
+    },
+    {
+      "id": 103,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Nyanyikan satu lagu tanpa suara hanya dengan gerakan mulut dan lihat siapa yang bisa tebak.",
+      "en": "Lip sync a song and see who can guess it."
+    },
+    {
+      "id": 104,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Cobalah perkenalkan diri kamu seperti sedang di kencan pertama kepada orang di sebelah kamu.",
+      "en": "Introduce yourself as if on a first date to the person beside you."
+    },
+    {
+      "id": 105,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Foto bareng orang yang kamu paling suka di sini dan jadikan wallpaper hp kamu.",
+      "en": "Take a photo with the person you like most here and set it as your phone wallpaper."
+    },
+    {
+      "id": 106,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Baca chat terakhir kamu dengan mantan keras-keras.",
+      "en": "Read your last conversation with your ex out loud."
+    },
+    {
+      "id": 107,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Kirim pesan 'Ayo ketemu sekarang' kepada seseorang yang kamu pilih.",
+      "en": "Send the message 'Let's meet up right now' to someone you choose."
+    },
+    {
+      "id": 108,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Lakukan roast (bully dengan humor) kepada diri sendiri selama 1 menit.",
+      "en": "Roast yourself humorously for 1 minute."
+    },
+    {
+      "id": 109,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Buat sound effect untuk setiap kata yang diucapkan seseorang selama 2 menit.",
+      "en": "Make sound effects for every word someone says for 2 minutes."
+    },
+    {
+      "id": 110,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Ubah judul film terkenal menjadi judul yang sangat aneh dan jelek.",
+      "en": "Change the title of a famous film into a very strange and bad one."
+    },
+    {
+      "id": 111,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Tidur di lantai selama 2 menit tanpa bergerak.",
+      "en": "Lie on the floor without moving for 2 minutes."
+    },
+    {
+      "id": 112,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Bicara hanya menggunakan pertanyaan selama 3 menit.",
+      "en": "Only speak using questions for 3 minutes."
+    },
+    {
+      "id": 113,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Minta orang di sebelah kamu untuk menentukan kalimat apa yang akan kamu posting di feed Instagram sekarang.",
+      "en": "Let the person beside you choose what you post on your Instagram feed right now."
+    },
+    {
+      "id": 114,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Minta nomor telepon seseorang yang ada di sini secara formal seperti kenalan di kafe.",
+      "en": "Ask for someone's phone number here formally as if you just met at a cafe."
+    },
+    {
+      "id": 115,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Perlihatkan foto yang biasanya tidak kamu share ke siapa pun dari galeri kamu.",
+      "en": "Show a photo from your gallery that you normally don't share with anyone."
+    },
+    {
+      "id": 116,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Berikan pendapat jujur kamu tentang gaya hidup seseorang di ruangan ini.",
+      "en": "Give your honest opinion about someone's lifestyle in this room."
+    },
+    {
+      "id": 117,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Ciptakan nama alter ego kamu dan perkenalkan diri sebagai alter ego itu.",
+      "en": "Create your alter ego name and introduce yourself as that alter ego."
+    },
+    {
+      "id": 118,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Tutup mata kamu dan tebak siapa yang menyentuh tanganmu.",
+      "en": "Close your eyes and guess who is touching your hand."
+    },
+    {
+      "id": 119,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Lakukan tarian tradisional apapun yang kamu tahu sekarang.",
+      "en": "Perform any traditional dance you know right now."
+    },
+    {
+      "id": 120,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Pilih seseorang dan bayangkan kalian sedang kencan – ceritakan akan ke mana dan apa yang akan dilakukan.",
+      "en": "Choose someone and imagine you are on a date – describe where you would go and what you would do."
+    },
+    {
+      "id": 121,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Berikan penilaian 1-10 tentang daya tarik fisik setiap orang di ruangan dengan jujur.",
+      "en": "Give an honest 1-10 physical attractiveness rating for everyone in the room."
+    },
+    {
+      "id": 122,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Hubungi seseorang yang sudah lama tidak kamu hubungi dan ucapkan apa yang ingin kamu sampaikan.",
+      "en": "Call someone you haven't contacted in a long time and say what you want to say."
+    },
+    {
+      "id": 123,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Iklankan diri kamu sendiri seolah kamu adalah produk yang dijual.",
+      "en": "Advertise yourself as if you were a product for sale."
+    },
+    {
+      "id": 124,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Buat suara paling keras yang bisa kamu buat tanpa berkata-kata.",
+      "en": "Make the loudest sound you can without using words."
+    },
+    {
+      "id": 125,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Tampilkan bio media sosial kamu dan biarkan orang lain mengeditnya.",
+      "en": "Show your social media bio and let someone else edit it."
+    },
+    {
+      "id": 126,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Bacakan puisi cinta paling cheesy yang bisa kamu improvisasi untuk seseorang di sini.",
+      "en": "Recite the cheesiest improvised love poem you can for someone here."
+    },
+    {
+      "id": 127,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Ceritakan pengalaman kencan paling aneh atau lucu yang pernah kamu alami.",
+      "en": "Tell about the strangest or funniest dating experience you have ever had."
+    },
+    {
+      "id": 128,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ungkapkan satu hal yang selama ini ingin kamu katakan kepada seseorang di sini tapi tidak pernah berani.",
+      "en": "Share one thing you have always wanted to say to someone here but never had the courage to."
+    },
+    {
+      "id": 129,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Buat rap dadakan tentang orang yang ada di sebelah kamu dalam 30 detik.",
+      "en": "Make a spontaneous rap about the person beside you in 30 seconds."
+    },
+    {
+      "id": 130,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Ceritakan mimpi paling aneh yang bisa kamu karang sekarang.",
+      "en": "Tell the most bizarre dream you can make up right now."
+    },
+    {
+      "id": 131,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Post foto tanpa edit apapun ke semua media sosial kamu sekarang.",
+      "en": "Post an unedited photo to all your social media right now."
+    },
+    {
+      "id": 132,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Kirimkan meme romantis ke orang yang paling kamu suka di kontak kamu.",
+      "en": "Send a romantic meme to the person you like most in your contacts."
+    },
+    {
+      "id": 133,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Ungkapkan crush rahasia kamu di hadapan semua orang yang ada sekarang.",
+      "en": "Reveal your secret crush in front of everyone present now."
+    },
+    {
+      "id": 134,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Biarkan seseorang mengganti foto profil WhatsApp kamu selama 30 menit.",
+      "en": "Let someone change your WhatsApp profile photo for 30 minutes."
+    },
+    {
+      "id": 135,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Lakukan review bintang 5 untuk ruangan tempat kalian bermain sekarang.",
+      "en": "Give a 5-star review of the room you are playing in right now."
+    },
+    {
+      "id": 136,
+      "level": "easy",
+      "category": ["physical"],
+      "type": "dare",
+      "id_text": "Berdiri di atas kursi selama 30 detik sambil bernyanyi.",
+      "en": "Stand on a chair for 30 seconds while singing."
+    },
+    {
+      "id": 137,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Lakukan adegan dramatis seperti aktor sinetron selama 1 menit.",
+      "en": "Perform a dramatic soap opera scene for 1 minute."
+    },
+    {
+      "id": 138,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Minta seseorang di sini untuk menjadi pasanganmu di foto dan post ke Instagram.",
+      "en": "Ask someone here to be your partner in a photo and post it to Instagram."
+    },
+    {
+      "id": 139,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Baca keras-keras pesan terpanjang yang pernah kamu kirim ke mantan.",
+      "en": "Read aloud the longest message you ever sent to your ex."
+    },
+    {
+      "id": 140,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ceritakan satu hal yang paling memalukan tentang diri kamu yang tidak pernah kamu ceritakan.",
+      "en": "Share the most embarrassing thing about yourself that you have never told anyone."
+    },
+    {
+      "id": 141,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Nyanyikan lagu pop hits dengan gaya dangdut.",
+      "en": "Sing a pop hit song in dangdut style."
+    },
+    {
+      "id": 142,
+      "level": "easy",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Hitung dari 1 sampai 20 dengan aksen bahasa asing.",
+      "en": "Count from 1 to 20 with a foreign language accent."
+    },
+    {
+      "id": 143,
+      "level": "embarrassing",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Izinkan seseorang membalas pesan terakhir di chat kamu atas nama kamu.",
+      "en": "Let someone reply to your last message in a chat on your behalf."
+    },
+    {
+      "id": 144,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Pegang wajah orang yang duduk di sebelah kamu dengan lembut selama 10 detik.",
+      "en": "Gently hold the face of the person beside you for 10 seconds."
+    },
+    {
+      "id": 145,
+      "level": "21+",
+      "category": ["adult"],
+      "type": "dare",
+      "id_text": "Perlihatkan foto paling lucu yang ada di album tersembunyi hp kamu.",
+      "en": "Show the funniest photo in the hidden album on your phone."
+    },
+    {
+      "id": 146,
+      "level": "advanced",
+      "category": ["challenge"],
+      "type": "dare",
+      "id_text": "Ungkapkan hal yang paling kamu inginkan dari seseorang di sini secara langsung.",
+      "en": "Directly tell someone here the one thing you wish they would do for you."
+    },
+    {
+      "id": 147,
+      "level": "fun",
+      "category": ["creative"],
+      "type": "dare",
+      "id_text": "Peragakan bagaimana kamu bertingkah saat nervous di depan crush kamu.",
+      "en": "Act out how you behave when nervous in front of your crush."
+    },
+    {
+      "id": 148,
+      "level": "easy",
+      "category": ["social"],
+      "type": "dare",
+      "id_text": "Kirim pesan penyemangat ke seseorang yang kamu rasa sedang butuh motivasi.",
+      "en": "Send an encouraging message to someone you feel needs motivation right now."
+    },
+    {
+      "id": 149,
+      "level": "embarrassing",
+      "category": ["funny"],
+      "type": "dare",
+      "id_text": "Lakukan gerakan tarian dari video musik yang paling sering kamu tonton.",
+      "en": "Perform the dance move from the music video you watch most often."
+    },
+    {
+      "id": 150,
+      "level": "romance",
+      "category": ["relationship"],
+      "type": "dare",
+      "id_text": "Nyatakan cinta kepada seseorang di sini menggunakan bahasa isyarat atau bahasa tubuh saja.",
+      "en": "Confess your love to someone here using only sign language or body language."
+    }
+  ]
+}

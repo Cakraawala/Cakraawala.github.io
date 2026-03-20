@@ -278,7 +278,7 @@ const items: {
     desc: "Pertanyaan jujur atau tantangan seru buat kamu dan teman.",
     icon: Flame,
     href: "/tools/truth-or-dare",
-    status: "soon",
+    status: "ready",
     category: "minigame",
     tags: ["game", "fun"],
   },
