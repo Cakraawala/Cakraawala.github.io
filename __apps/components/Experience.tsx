@@ -52,7 +52,8 @@ export default function Experience() {
         transition={{ duration: 0.5 }}
         className="flex items-center gap-3 mb-12"
       >
-        <span className="text-primary font-mono text-sm">04.</span>
+        {/* <span className="text-primary font-mono text-sm">04.</span> */}
+        <span className="text-primary font-mono text-sm">03.</span>
         <span className="text-2xl md:text-3xl font-bold text-soft">Experience</span>
         <span className="flex-1 h-px bg-line ml-4 hidden md:block" />
       </motion.div>

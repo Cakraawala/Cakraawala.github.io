@@ -81,7 +81,7 @@ const items: {
     desc: "Format, minify, dan validasi JSON dengan syntax highlighting.",
     icon: Code2,
     href: "/tools/json-formatter",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -89,7 +89,7 @@ const items: {
     desc: "Konversi panjang, luas, volume - meter, inch, feet, dan lainnya.",
     icon: Ruler,
     href: "/tools/unit-converter",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -97,7 +97,7 @@ const items: {
     desc: "Konversi Celsius, Fahrenheit, dan Kelvin secara instan.",
     icon: Thermometer,
     href: "/tools/temperature",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -105,7 +105,7 @@ const items: {
     desc: "Konversi bilangan antara biner, oktal, desimal, dan heksadesimal.",
     icon: Binary,
     href: "/tools/base-converter",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -113,7 +113,7 @@ const items: {
     desc: "Bandingkan waktu di berbagai zona waktu dunia secara bersamaan.",
     icon: Globe,
     href: "/tools/timezone",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -121,7 +121,7 @@ const items: {
     desc: "Buat password acak yang kuat dengan cek skor kekuatannya.",
     icon: KeyRound,
     href: "/tools/password-generator",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {
@@ -129,7 +129,7 @@ const items: {
     desc: "Encode atau decode URL dan query string dengan mudah.",
     icon: Link2,
     href: "/tools/url-encoder",
-    status: "soon",
+    status: "ready",
     category: "tool",
   },
   {

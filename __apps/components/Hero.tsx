@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Instagram, Mail } from "lucide-react";
 import TypewriterClient from "./TypewriterClient";
+import { useRouter } from "next/navigation";
 
 const container = {
   hidden: {},
@@ -20,9 +21,11 @@ const socialLinks = [
 ];
 
 export default function Hero() {
-  const scrollTo = (id: string) =>
-    document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
+  const router = useRouter();
+  // const scrollTo = (id: string) =>
+  //   document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
 
+  const gotoTools = () => router.push("/tools");
   return (
     <section
       id="home"
@@ -87,11 +90,17 @@ export default function Hero() {
           variants={item}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10"
         >
-          <button
+          {/* <button
             onClick={() => scrollTo("#projects")}
             className="px-8 py-3.5 rounded-xl bg-primary text-white font-semibold text-sm hover:bg-blue-600 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-0.5 active:translate-y-0"
           >
             View Projects
+          </button> */}
+          <button
+            onClick={gotoTools}
+            className="px-8 py-3.5 rounded-xl bg-primary text-white font-semibold text-sm hover:bg-blue-600 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 hover:-translate-y-0.5 active:translate-y-0"
+          >
+            View Tools
           </button>
           {/* <button
             onClick={() => scrollTo("#contact")}
