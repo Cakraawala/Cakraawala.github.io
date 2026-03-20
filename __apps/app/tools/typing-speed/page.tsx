@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
-import { RefreshCw, Clock, Zap, Target, ChevronDown } from "lucide-react";
+import { RefreshCw, Clock, Zap, Target } from "lucide-react";
 import ToolLayout from "@/components/ToolLayout";
 
 // ── Word banks ────────────────────────────────────────────────────────────────
@@ -147,7 +147,7 @@ export default function TypingSpeedPage() {
     setGameState("idle");
   }, [lang, duration]);
 
-  useEffect(() => { init(); }, [lang, duration]);
+  useEffect(() => { init(); }, [init]);
 
   // ── Start countdown ───────────────────────────────────────────────────────
   const startCountdown = () => {

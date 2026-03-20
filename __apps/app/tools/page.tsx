@@ -26,12 +26,23 @@ import {
   Wifi,
   Search,
   X,
+  Percent,
+  Receipt,
+  CalendarDays,
+  HardDrive,
+  Fingerprint,
+  Bot,
+  Gamepad2,
+  Dices,
+  TrendingDown,
+  Target,
+  BarChart2,
 } from "lucide-react";
 
 type Category = "all" | "tool" | "minigame";
 type Status = "ready" | "soon";
 
-const ALL_TAGS = ["converter", "generator", "formatter", "decoder", "encoder", "crypto", "text", "math", "network", "utility", "team", "fun", "game"] as const;
+const ALL_TAGS = ["converter", "generator", "formatter", "decoder", "encoder", "crypto", "text", "math", "network", "utility", "team", "fun", "game", "finance"] as const;
 type Tag = typeof ALL_TAGS[number];
 
 const items: {
@@ -179,6 +190,61 @@ const items: {
     tags: ["network", "utility"],
   },
 
+  {
+    label: "Loan / Interest Calculator",
+    desc: "Simulasi cicilan kredit (anuitas / flat) dengan jadwal angsuran lengkap.",
+    icon: Percent,
+    href: "/tools/loan-calculator",
+    status: "ready",
+    category: "tool",
+    tags: ["finance", "math", "utility"],
+  },
+  {
+    label: "Split Bill Calculator",
+    desc: "Hitung pembagian tagihan restoran termasuk pajak dan tips untuk banyak orang.",
+    icon: Receipt,
+    href: "/tools/split-bill",
+    status: "ready",
+    category: "tool",
+    tags: ["finance", "utility", "math"],
+  },
+  {
+    label: "Age Calculator",
+    desc: "Hitung usia tepat, jadwal ulang tahun berikutnya, zodiak, dan shio.",
+    icon: CalendarDays,
+    href: "/tools/age-calculator",
+    status: "ready",
+    category: "tool",
+    tags: ["utility", "converter"],
+  },
+  {
+    label: "File Size Converter",
+    desc: "Konversi ukuran file: Bit, Byte, KB, MB, GB, TB, PB secara instan.",
+    icon: HardDrive,
+    href: "/tools/file-size",
+    status: "ready",
+    category: "tool",
+    tags: ["converter", "utility"],
+  },
+  {
+    label: "UUID Generator",
+    desc: "Generate UUID v4 acak dalam jumlah banyak sekaligus, dengan opsi format.",
+    icon: Fingerprint,
+    href: "/tools/uuid-generator",
+    status: "ready",
+    category: "tool",
+    tags: ["generator", "utility", "crypto"],
+  },
+  {
+    label: "Fake Data Generator",
+    desc: "Buat data dummy Indonesia (nama, email, NIK, alamat) untuk testing.",
+    icon: Bot,
+    href: "/tools/fake-data",
+    status: "ready",
+    category: "tool",
+    tags: ["generator", "utility", "text"],
+  },
+
   // ── Minigames ─────────────────────────────────────────────────────────
   {
     label: "Typing Speed Test",
@@ -233,6 +299,53 @@ const items: {
     status: "soon",
     category: "minigame",
     tags: ["game", "fun"],
+  },
+
+  // ── 🎰 Mini Game Edukasi Anti-Judol ───────────────────────────────────
+  {
+    label: "You Can't Win",
+    desc: "Spin mesin slot yang sudah dimanipulasi - pelajari mengapa kamu tidak pernah bisa menang.",
+    icon: Gamepad2,
+    href: "/tools/cant-win",
+    status: "ready",
+    category: "minigame",
+    tags: ["game", "fun"],
+  },
+  {
+    label: "Rigged RNG Simulator",
+    desc: "Pilih angka dan lihat perbedaan peluang asli vs hasil yang dimanipulasi kasino.",
+    icon: Dices,
+    href: "/tools/rigged-rng",
+    status: "ready",
+    category: "minigame",
+    tags: ["game", "math"],
+  },
+  {
+    label: "Money Drain Simulator",
+    desc: "Mulai dari Rp 1 juta - lihat grafik saldo yang selalu turun meski ada kemenangan kecil.",
+    icon: TrendingDown,
+    href: "/tools/money-drain",
+    status: "ready",
+    category: "minigame",
+    tags: ["game", "finance"],
+  },
+  {
+    label: "Near Miss Psychology",
+    desc: "Animasi slot yang selalu hampir jackpot - teknik adiksi yang disengaja.",
+    icon: Target,
+    href: "/tools/near-miss",
+    status: "ready",
+    category: "minigame",
+    tags: ["game", "fun"],
+  },
+  {
+    label: "House Always Wins",
+    desc: "Simulasi 1.000 pemain - 90%+ selalu rugi, kasino selalu untung.",
+    icon: BarChart2,
+    href: "/tools/house-wins",
+    status: "ready",
+    category: "minigame",
+    tags: ["game", "math", "finance"],
   },
 ];
 
