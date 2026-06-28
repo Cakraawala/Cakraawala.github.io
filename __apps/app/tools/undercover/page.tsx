@@ -321,7 +321,7 @@ export default function Undercover() {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="text-muted text-xs font-mono mb-3">// urutan giliran ({players.length} pemain)</p>
+                        <p className="text-muted text-xs font-mono mb-3">{"// urutan giliran"} ({players.length} pemain)</p>
                         {players.map((p, i) => (
                             <div key={p.id} className="flex items-center gap-3 p-3 rounded-xl bg-surface border border-line">
                                 <div className={`w-9 h-9 rounded-xl border flex items-center justify-center text-sm font-bold flex-shrink-0 ${AVATAR_COLORS[i % AVATAR_COLORS.length]}`}>
@@ -334,7 +334,7 @@ export default function Undercover() {
                     </div>
 
                     <div className="rounded-xl border border-line bg-surface p-4">
-                        <p className="text-muted text-xs font-mono mb-3">// distribusi peran (untuk host)</p>
+                        <p className="text-muted text-xs font-mono mb-3">{"// distribusi peran (untuk host)"}</p>
                         <div className="flex flex-wrap gap-2">
                             <span className="text-xs font-mono px-2 py-1 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400">{finalCivCount}× Penduduk Sipil</span>
                             <span className="text-xs font-mono px-2 py-1 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400">{finalUcCount}× Undercover</span>
@@ -343,7 +343,7 @@ export default function Undercover() {
                     </div>
 
                     <div className="rounded-xl border border-line bg-surface p-4 space-y-2">
-                        <p className="text-muted text-xs font-mono mb-1">// cara bermain</p>
+                        <p className="text-muted text-xs font-mono mb-1">{"// cara bermain"}</p>
                         <div className="space-y-2 text-xs text-muted leading-relaxed">
                             <p>1. Setiap pemain bergiliran memberi <span className="text-soft">1 kata/kalimat pendek</span> yang menggambarkan kata mereka.</p>
                             <p>2. Setelah semua selesai, <span className="text-soft">diskusi & voting</span> siapa yang paling mencurigakan.</p>
@@ -522,7 +522,7 @@ export default function Undercover() {
 
                 {/* How to play */}
                 <div className="rounded-2xl border border-line bg-surface p-5 space-y-3">
-                    <p className="text-muted text-xs font-mono">// cara main</p>
+                    <p className="text-muted text-xs font-mono">{"// cara main"}</p>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                         {[
                             { icon: User, color: "text-blue-400 bg-blue-500/10 border-blue-500/20", title: "Penduduk Sipil", desc: "Dapat kata asli. Temukan Undercover & Mr. White lalu keluarkan mereka!" },
@@ -545,7 +545,7 @@ export default function Undercover() {
 
                 {/* Role config */}
                 <div className="rounded-2xl border border-line bg-surface p-5 space-y-5">
-                    <p className="text-muted text-xs font-mono">// konfigurasi pemain & peran</p>
+                    <p className="text-muted text-xs font-mono">{"// konfigurasi pemain & peran"}</p>
 
                     {/* Total players */}
                     <div className="flex items-center justify-between">
