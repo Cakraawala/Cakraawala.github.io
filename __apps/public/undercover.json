@@ -1,0 +1,1506 @@
+{
+    "undercover": [
+        {
+            "id": 1,
+            "penduduk": "Tidur",
+            "undercover": "Meditasi",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 2,
+            "penduduk": "Kopi",
+            "undercover": "Teh",
+            "kategori": "Minuman"
+        },
+        {
+            "id": 3,
+            "penduduk": "Kucing",
+            "undercover": "Harimau",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 4,
+            "penduduk": "Bioskop",
+            "undercover": "Teater",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 5,
+            "penduduk": "Sepeda",
+            "undercover": "Sepeda Motor",
+            "kategori": "Kendaraan"
+        },
+        {
+            "id": 6,
+            "penduduk": "Hujan",
+            "undercover": "Badai",
+            "kategori": "Alam/Cuaca"
+        },
+        {
+            "id": 7,
+            "penduduk": "Es Krim",
+            "undercover": "Gelato",
+            "kategori": "Makanan"
+        },
+        {
+            "id": 8,
+            "penduduk": "Dokter",
+            "undercover": "Perawat",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 9,
+            "penduduk": "Buku",
+            "undercover": "E-book",
+            "kategori": "Benda"
+        },
+        {
+            "id": 10,
+            "penduduk": "Pantai",
+            "undercover": "Kolam Renang",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 11,
+            "penduduk": "Cermin",
+            "undercover": "Foto",
+            "kategori": "Benda"
+        },
+        {
+            "id": 12,
+            "penduduk": "Kereta Api",
+            "undercover": "Pesawat",
+            "kategori": "Kendaraan"
+        },
+        {
+            "id": 13,
+            "penduduk": "Berenang",
+            "undercover": "Menyelam",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 14,
+            "penduduk": "Gitar",
+            "undercover": "Ukulele",
+            "kategori": "Alat Musik"
+        },
+        {
+            "id": 15,
+            "penduduk": "Rumah Sakit",
+            "undercover": "Puskesmas",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 16,
+            "penduduk": "Nasi",
+            "undercover": "Mie",
+            "kategori": "Makanan"
+        },
+        {
+            "id": 17,
+            "penduduk": "Dompet",
+            "undercover": "Tas",
+            "kategori": "Benda"
+        },
+        {
+            "id": 18,
+            "penduduk": "Handphone",
+            "undercover": "Tablet",
+            "kategori": "Elektronik"
+        },
+        {
+            "id": 19,
+            "penduduk": "Kacamata",
+            "undercover": "Lensa Kontak",
+            "kategori": "Benda"
+        },
+        {
+            "id": 20,
+            "penduduk": "Jam Tangan",
+            "undercover": "Jam Dinding",
+            "kategori": "Benda"
+        },
+        {
+            "id": 21,
+            "penduduk": "Berlari",
+            "undercover": "Berjalan",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 22,
+            "penduduk": "Sepatu",
+            "undercover": "Sandal",
+            "kategori": "Alas Kaki"
+        },
+        {
+            "id": 23,
+            "penduduk": "Garpu",
+            "undercover": "Sendok",
+            "kategori": "Benda"
+        },
+        {
+            "id": 24,
+            "penduduk": "Gula",
+            "undercover": "Garam",
+            "kategori": "Bumbu/Bahan"
+        },
+        {
+            "id": 25,
+            "penduduk": "Susu",
+            "undercover": "Yoghurt",
+            "kategori": "Minuman/Makanan"
+        },
+        {
+            "id": 26,
+            "penduduk": "Pizza",
+            "undercover": "Burger",
+            "kategori": "Makanan"
+        },
+        {
+            "id": 27,
+            "penduduk": "Televisi",
+            "undercover": "Netflix",
+            "kategori": "Hiburan"
+        },
+        {
+            "id": 28,
+            "penduduk": "Bernyanyi",
+            "undercover": "Bersiul",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 29,
+            "penduduk": "Menangis",
+            "undercover": "Merajuk",
+            "kategori": "Ekspresi/Emosi"
+        },
+        {
+            "id": 30,
+            "penduduk": "Sikat Gigi",
+            "undercover": "Tusuk Gigi",
+            "kategori": "Benda"
+        },
+        {
+            "id": 31,
+            "penduduk": "Payung",
+            "undercover": "Jas Hujan",
+            "kategori": "Benda"
+        },
+        {
+            "id": 32,
+            "penduduk": "Brankas",
+            "undercover": "Celengan",
+            "kategori": "Benda"
+        },
+        {
+            "id": 33,
+            "penduduk": "Topi",
+            "undercover": "Helm",
+            "kategori": "Benda"
+        },
+        {
+            "id": 34,
+            "penduduk": "Singa",
+            "undercover": "Macan Tutul",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 35,
+            "penduduk": "Laptop",
+            "undercover": "Komputer",
+            "kategori": "Elektronik"
+        },
+        {
+            "id": 36,
+            "penduduk": "Kunci",
+            "undercover": "Gembok",
+            "kategori": "Benda"
+        },
+        {
+            "id": 37,
+            "penduduk": "Sabun",
+            "undercover": "Shampo",
+            "kategori": "Benda/Perawatan"
+        },
+        {
+            "id": 38,
+            "penduduk": "Handuk",
+            "undercover": "Selimut",
+            "kategori": "Benda"
+        },
+        {
+            "id": 39,
+            "penduduk": "Lampu",
+            "undercover": "Lilin",
+            "kategori": "Benda"
+        },
+        {
+            "id": 40,
+            "penduduk": "Kipas Angin",
+            "undercover": "AC",
+            "kategori": "Elektronik"
+        },
+        {
+            "id": 41,
+            "penduduk": "Air",
+            "undercover": "Es Batu",
+            "kategori": "Benda"
+        },
+        {
+            "id": 42,
+            "penduduk": "Madu",
+            "undercover": "Sirup",
+            "kategori": "Makanan/Minuman"
+        },
+        {
+            "id": 43,
+            "penduduk": "Ayam",
+            "undercover": "Bebek",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 44,
+            "penduduk": "Telur",
+            "undercover": "Tahu",
+            "kategori": "Makanan"
+        },
+        {
+            "id": 45,
+            "penduduk": "Roti",
+            "undercover": "Biskuit",
+            "kategori": "Makanan"
+        },
+        {
+            "id": 46,
+            "penduduk": "Konser",
+            "undercover": "Festival Musik",
+            "kategori": "Hiburan"
+        },
+        {
+            "id": 47,
+            "penduduk": "Menulis",
+            "undercover": "Menggambar",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 48,
+            "penduduk": "Membaca",
+            "undercover": "Mendengar Audiobook",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 49,
+            "penduduk": "Sekolah",
+            "undercover": "Universitas",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 50,
+            "penduduk": "Pasar",
+            "undercover": "Supermarket",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 51,
+            "penduduk": "Kuburan",
+            "undercover": "Rumah Hantu",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 52,
+            "penduduk": "Polisi",
+            "undercover": "Satpam",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 53,
+            "penduduk": "Guru",
+            "undercover": "Dosen",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 54,
+            "penduduk": "Pilot",
+            "undercover": "Masinis",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 55,
+            "penduduk": "Koki",
+            "undercover": "Pembuat Kue",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 56,
+            "penduduk": "Petani",
+            "undercover": "Nelayan",
+            "kategori": "Profesi"
+        },
+        {
+            "id": 57,
+            "penduduk": "Bus",
+            "undercover": "Angkot",
+            "kategori": "Kendaraan"
+        },
+        {
+            "id": 58,
+            "penduduk": "Kapal Laut",
+            "undercover": "Kapal Selam",
+            "kategori": "Kendaraan"
+        },
+        {
+            "id": 59,
+            "penduduk": "Gunung",
+            "undercover": "Bukit",
+            "kategori": "Alam/Tempat"
+        },
+        {
+            "id": 60,
+            "penduduk": "Sungai",
+            "undercover": "Danau",
+            "kategori": "Alam/Tempat"
+        },
+        {
+            "id": 61,
+            "penduduk": "Taman",
+            "undercover": "Hutan",
+            "kategori": "Alam/Tempat"
+        },
+        {
+            "id": 62,
+            "penduduk": "Domba",
+            "undercover": "Kambing",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 63,
+            "penduduk": "Tikus",
+            "undercover": "Hamster",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 64,
+            "penduduk": "Buaya",
+            "undercover": "Komodo",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 65,
+            "penduduk": "Elang",
+            "undercover": "Burung Hantu",
+            "kategori": "Hewan"
+        },
+        {
+            "id": 66,
+            "penduduk": "Apel",
+            "undercover": "Pir",
+            "kategori": "Buah"
+        },
+        {
+            "id": 67,
+            "penduduk": "Jeruk",
+            "undercover": "Lemon",
+            "kategori": "Buah"
+        },
+        {
+            "id": 68,
+            "penduduk": "Pisang",
+            "undercover": "Mangga",
+            "kategori": "Buah"
+        },
+        {
+            "id": 69,
+            "penduduk": "Cabai",
+            "undercover": "Merica",
+            "kategori": "Bumbu"
+        },
+        {
+            "id": 70,
+            "penduduk": "Bawang Merah",
+            "undercover": "Bawang Putih",
+            "kategori": "Bumbu"
+        },
+        {
+            "id": 71,
+            "penduduk": "Keju",
+            "undercover": "Mentega",
+            "kategori": "Bahan Makanan"
+        },
+        {
+            "id": 72,
+            "penduduk": "Cokelat",
+            "undercover": "Permen",
+            "kategori": "Camilan"
+        },
+        {
+            "id": 73,
+            "penduduk": "Kalkulator",
+            "undercover": "Sempoa",
+            "kategori": "Benda"
+        },
+        {
+            "id": 74,
+            "penduduk": "Sepatu Roda",
+            "undercover": "Skateboard",
+            "kategori": "Benda/Olahraga"
+        },
+        {
+            "id": 75,
+            "penduduk": "Catur",
+            "undercover": "Monopoly",
+            "kategori": "Permainan"
+        },
+        {
+            "id": 76,
+            "penduduk": "Sepak Bola",
+            "undercover": "Futsal",
+            "kategori": "Olahraga"
+        },
+        {
+            "id": 77,
+            "penduduk": "Bulu Tangkis",
+            "undercover": "Tenis",
+            "kategori": "Olahraga"
+        },
+        {
+            "id": 78,
+            "penduduk": "Basket",
+            "undercover": "Voli",
+            "kategori": "Olahraga"
+        },
+        {
+            "id": 79,
+            "penduduk": "Memancing",
+            "undercover": "Menjala",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 80,
+            "penduduk": "Memasak",
+            "undercover": "Memanggang",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 81,
+            "penduduk": "Mencuci Baju",
+            "undercover": "Laundry",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 82,
+            "penduduk": "Menyetrika",
+            "undercover": "Melipat Baju",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 83,
+            "penduduk": "Menyapu",
+            "undercover": "Mengepel",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 84,
+            "penduduk": "Berkebun",
+            "undercover": "Bertani",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 85,
+            "penduduk": "Fotografi",
+            "undercover": "Videografi",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 86,
+            "penduduk": "Menari",
+            "undercover": "Balet",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 87,
+            "penduduk": "Berkemah",
+            "undercover": "Piknik",
+            "kategori": "Kegiatan"
+        },
+        {
+            "id": 88,
+            "penduduk": "Hotel",
+            "undercover": "Villa",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 89,
+            "penduduk": "Kantor",
+            "undercover": "Coworking Space",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 90,
+            "penduduk": "Kafe",
+            "undercover": "Warteg",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 91,
+            "penduduk": "Bank",
+            "undercover": "ATM",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 92,
+            "penduduk": "Mall",
+            "undercover": "Pasar Malam",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 93,
+            "penduduk": "Bandara",
+            "undercover": "Stasiun",
+            "kategori": "Tempat"
+        },
+        {
+            "id": 94,
+            "penduduk": "Cincin",
+            "undercover": "Gelang",
+            "kategori": "Aksesoris"
+        },
+        {
+            "id": 95,
+            "penduduk": "Kalung",
+            "undercover": "Dasi",
+            "kategori": "Aksesoris"
+        },
+        {
+            "id": 96,
+            "penduduk": "Parfum",
+            "undercover": "Deodoran",
+            "kategori": "Benda"
+        },
+        {
+            "id": 97,
+            "penduduk": "Bedak",
+            "undercover": "Lipstik",
+            "kategori": "Kosmetik"
+        },
+        {
+            "id": 98,
+            "penduduk": "Kaca Jendela",
+            "undercover": "Ventilasi",
+            "kategori": "Benda"
+        },
+        {
+            "id": 99,
+            "penduduk": "Tangga",
+            "undercover": "Lift",
+            "kategori": "Benda"
+        },
+        {
+            "id": 100,
+            "penduduk": "Pintu",
+            "undercover": "Gerbang",
+            "kategori": "Benda"
+        },
+        [
+            {
+                "id": 101,
+                "penduduk": "Martabak Manis",
+                "undercover": "Martabak Telur",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 102,
+                "penduduk": "Bakso",
+                "undercover": "Pangsit",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 103,
+                "penduduk": "Soto",
+                "undercover": "Rawon",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 104,
+                "penduduk": "Sate Ayam",
+                "undercover": "Sate Kambing",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 105,
+                "penduduk": "Kurma",
+                "undercover": "Kismis",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 106,
+                "penduduk": "Keripik",
+                "undercover": "Kerupuk",
+                "kategori": "Camilan"
+            },
+            {
+                "id": 107,
+                "penduduk": "Popcorn",
+                "undercover": "Chiki",
+                "kategori": "Camilan"
+            },
+            {
+                "id": 108,
+                "penduduk": "Rendang",
+                "undercover": "Semur",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 109,
+                "penduduk": "Pempek",
+                "undercover": "Otak-otak",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 110,
+                "penduduk": "Donat",
+                "undercover": "Kue Sus",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 111,
+                "penduduk": "Jus",
+                "undercover": "Smoothies",
+                "kategori": "Minuman"
+            },
+            {
+                "id": 112,
+                "penduduk": "Boba",
+                "undercover": "Cendol",
+                "kategori": "Minuman"
+            },
+            {
+                "id": 113,
+                "penduduk": "Es Teler",
+                "undercover": "Es Campur",
+                "kategori": "Minuman"
+            },
+            {
+                "id": 114,
+                "penduduk": "Soda",
+                "undercover": "Air Berkarbonasi",
+                "kategori": "Minuman"
+            },
+            {
+                "id": 115,
+                "penduduk": "Sirup",
+                "undercover": "Squash",
+                "kategori": "Minuman"
+            },
+            {
+                "id": 116,
+                "penduduk": "Mouse",
+                "undercover": "Trackpad",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 117,
+                "penduduk": "Keyboard",
+                "undercover": "Mesin Tik",
+                "kategori": "Benda"
+            },
+            {
+                "id": 118,
+                "penduduk": "Earphone",
+                "undercover": "Headphone",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 119,
+                "penduduk": "Kamera",
+                "undercover": "Handycam",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 120,
+                "penduduk": "Flashdisk",
+                "undercover": "Harddisk",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 121,
+                "penduduk": "Proyektor",
+                "undercover": "Layar Monitor",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 122,
+                "penduduk": "Speaker",
+                "undercover": "Soundbar",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 123,
+                "penduduk": "Smartwatch",
+                "undercover": "Smartband",
+                "kategori": "Elektronik"
+            },
+            {
+                "id": 124,
+                "penduduk": "Kemeja",
+                "undercover": "Kaos Berkerah",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 125,
+                "penduduk": "Celana Jeans",
+                "undercover": "Celana Chino",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 126,
+                "penduduk": "Jaket",
+                "undercover": "Sweater",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 127,
+                "penduduk": "Jas",
+                "undercover": "Blazer",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 128,
+                "penduduk": "Rok",
+                "undercover": "Gaun",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 129,
+                "penduduk": "Kebaya",
+                "undercover": "Batik",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 130,
+                "penduduk": "Dasi Panjang",
+                "undercover": "Dasi Kupu-kupu",
+                "kategori": "Aksesoris"
+            },
+            {
+                "id": 131,
+                "penduduk": "Kaos Kaki",
+                "undercover": "Stocking",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 132,
+                "penduduk": "Sarung Tangan",
+                "undercover": "Manset",
+                "kategori": "Pakaian"
+            },
+            {
+                "id": 133,
+                "penduduk": "Anjing",
+                "undercover": "Serigala",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 134,
+                "penduduk": "Kelinci",
+                "undercover": "Marmut",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 135,
+                "penduduk": "Bebek",
+                "undercover": "Angsa",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 136,
+                "penduduk": "Kuda",
+                "undercover": "Keledai",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 137,
+                "penduduk": "Lebah",
+                "undercover": "Tawon",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 138,
+                "penduduk": "Nyamuk",
+                "undercover": "Lalat",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 139,
+                "penduduk": "Kupu-kupu",
+                "undercover": "Ngengat",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 140,
+                "penduduk": "Semut",
+                "undercover": "Rayap",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 141,
+                "penduduk": "Lumba-lumba",
+                "undercover": "Paus",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 142,
+                "penduduk": "Hiu",
+                "undercover": "Pari",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 143,
+                "penduduk": "Cicak",
+                "undercover": "Tokek",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 144,
+                "penduduk": "Ular",
+                "undercover": "Belut",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 145,
+                "penduduk": "Unta",
+                "undercover": "Alpaka",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 146,
+                "penduduk": "Katak",
+                "undercover": "Kodok",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 147,
+                "penduduk": "Kepiting",
+                "undercover": "Lobster",
+                "kategori": "Hewan"
+            },
+            {
+                "id": 148,
+                "penduduk": "Gurun",
+                "undercover": "Sabana",
+                "kategori": "Alam/Tempat"
+            },
+            {
+                "id": 149,
+                "penduduk": "Kebun Binatang",
+                "undercover": "Taman Safari",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 150,
+                "penduduk": "Museum",
+                "undercover": "Galeri Seni",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 151,
+                "penduduk": "Perpustakaan",
+                "undercover": "Toko Buku",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 152,
+                "penduduk": "Apotek",
+                "undercover": "Toko Obat",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 153,
+                "penduduk": "Gym",
+                "undercover": "Sanggar Senam",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 154,
+                "penduduk": "Masjid",
+                "undercover": "Musholla",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 155,
+                "penduduk": "Gereja",
+                "undercover": "Katedral",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 156,
+                "penduduk": "Penjara",
+                "undercover": "Sel Tahanan",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 157,
+                "penduduk": "Kastil",
+                "undercover": "Istana",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 158,
+                "penduduk": "Tentara",
+                "undercover": "Militer",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 159,
+                "penduduk": "Pemadam Kebakaran",
+                "undercover": "Tim SAR",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 160,
+                "penduduk": "Hakim",
+                "undercover": "Jaksa",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 161,
+                "penduduk": "Pengacara",
+                "undercover": "Notaris",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 162,
+                "penduduk": "Pramugari",
+                "undercover": "Pelayan Restoran",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 163,
+                "penduduk": "Resepsionis",
+                "undercover": "Kasir",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 164,
+                "penduduk": "Satpam",
+                "undercover": "Bodyguard",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 165,
+                "penduduk": "Penyanyi",
+                "undercover": "Rapper",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 166,
+                "penduduk": "Fotografer",
+                "undercover": "Kameramen",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 167,
+                "penduduk": "Youtuber",
+                "undercover": "Selebgram",
+                "kategori": "Profesi"
+            },
+            {
+                "id": 168,
+                "penduduk": "Belanja",
+                "undercover": "Cuci Mata",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 169,
+                "penduduk": "Nonton TV",
+                "undercover": "Main Game",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 170,
+                "penduduk": "Belajar",
+                "undercover": "Menghafal",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 171,
+                "penduduk": "Berpikir",
+                "undercover": "Melamun",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 172,
+                "penduduk": "Tertawa",
+                "undercover": "Tersenyum",
+                "kategori": "Ekspresi"
+            },
+            {
+                "id": 173,
+                "penduduk": "Berteriak",
+                "undercover": "Berbisik",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 174,
+                "penduduk": "Menjual",
+                "undercover": "Membeli",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 175,
+                "penduduk": "Meminjam",
+                "undercover": "Menyewa",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 176,
+                "penduduk": "Berjanji",
+                "undercover": "Sumpah",
+                "kategori": "Kegiatan"
+            },
+            {
+                "id": 177,
+                "penduduk": "Bantal",
+                "undercover": "Guling",
+                "kategori": "Benda"
+            },
+            {
+                "id": 178,
+                "penduduk": "Kasur",
+                "undercover": "Tikar",
+                "kategori": "Benda"
+            },
+            {
+                "id": 179,
+                "penduduk": "Piring",
+                "undercover": "Mangkok",
+                "kategori": "Benda"
+            },
+            {
+                "id": 180,
+                "penduduk": "Gelas",
+                "undercover": "Cangkir",
+                "kategori": "Benda"
+            },
+            {
+                "id": 181,
+                "penduduk": "Wajan",
+                "undercover": "Panci",
+                "kategori": "Benda"
+            },
+            {
+                "id": 182,
+                "penduduk": "Pisau",
+                "undercover": "Gunting",
+                "kategori": "Benda"
+            },
+            {
+                "id": 183,
+                "penduduk": "Ember",
+                "undercover": "Gayung",
+                "kategori": "Benda"
+            },
+            {
+                "id": 184,
+                "penduduk": "Keset",
+                "undercover": "Karpet",
+                "kategori": "Benda"
+            },
+            {
+                "id": 185,
+                "penduduk": "Lemari",
+                "undercover": "Rak Buku",
+                "kategori": "Benda"
+            },
+            {
+                "id": 186,
+                "penduduk": "Sapu lidi",
+                "undercover": "Kemoceng",
+                "kategori": "Benda"
+            },
+            {
+                "id": 187,
+                "penduduk": "Tempat Sampah",
+                "undercover": "Kantong Plastik",
+                "kategori": "Benda"
+            },
+            {
+                "id": 188,
+                "penduduk": "Bowling",
+                "undercover": "Billiard",
+                "kategori": "Olahraga/Permainan"
+            },
+            {
+                "id": 189,
+                "penduduk": "Golf",
+                "undercover": "Mini Golf",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 190,
+                "penduduk": "Lari Estafet",
+                "undercover": "Maraton",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 191,
+                "penduduk": "Angkat Beban",
+                "undercover": "Push-up",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 192,
+                "penduduk": "Yoga",
+                "undercover": "Pilates",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 193,
+                "penduduk": "Karate",
+                "undercover": "Taekwondo",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 194,
+                "penduduk": "Selancar",
+                "undercover": "Wakeboarding",
+                "kategori": "Olahraga"
+            },
+            {
+                "id": 195,
+                "penduduk": "Ludo",
+                "undercover": "Ular Tangga",
+                "kategori": "Permainan"
+            },
+            {
+                "id": 196,
+                "penduduk": "PS5",
+                "undercover": "Nintendo Switch",
+                "kategori": "Hiburan/Elektronik"
+            },
+            {
+                "id": 197,
+                "penduduk": "Bulan",
+                "undercover": "Matahari",
+                "kategori": "Alam"
+            },
+            {
+                "id": 198,
+                "penduduk": "Bintang",
+                "undercover": "Planet",
+                "kategori": "Alam"
+            },
+            {
+                "id": 199,
+                "penduduk": "Awan",
+                "undercover": "Kabut",
+                "kategori": "Alam/Cuaca"
+            },
+            {
+                "id": 200,
+                "penduduk": "Petir",
+                "undercover": "Kilat",
+                "kategori": "Alam/Cuaca"
+            },
+            {
+                "id": 201,
+                "penduduk": "Salju",
+                "undercover": "Es Batu",
+                "kategori": "Alam"
+            },
+            {
+                "id": 202,
+                "penduduk": "Tanah",
+                "undercover": "Pasir",
+                "kategori": "Alam"
+            },
+            {
+                "id": 203,
+                "penduduk": "Batu",
+                "undercover": "Kerikil",
+                "kategori": "Alam"
+            },
+            {
+                "id": 204,
+                "penduduk": "Pohon",
+                "undercover": "Rumput",
+                "kategori": "Alam"
+            },
+            {
+                "id": 205,
+                "penduduk": "Bunga",
+                "undercover": "Daun",
+                "kategori": "Alam"
+            },
+            {
+                "id": 206,
+                "penduduk": "Semangka",
+                "undercover": "Melon",
+                "kategori": "Buah"
+            },
+            {
+                "id": 207,
+                "penduduk": "Stroberi",
+                "undercover": "Raspberi",
+                "kategori": "Buah"
+            },
+            {
+                "id": 208,
+                "penduduk": "Anggur",
+                "undercover": "Kranberi",
+                "kategori": "Buah"
+            },
+            {
+                "id": 209,
+                "penduduk": "Alpukat",
+                "undercover": "Durian",
+                "kategori": "Buah"
+            },
+            {
+                "id": 210,
+                "penduduk": "Nanas",
+                "undercover": "Nangka",
+                "kategori": "Buah"
+            },
+            {
+                "id": 211,
+                "penduduk": "Wortel",
+                "undercover": "Lobak",
+                "kategori": "Sayuran"
+            },
+            {
+                "id": 212,
+                "penduduk": "Bayam",
+                "undercover": "Kangkung",
+                "kategori": "Sayuran"
+            },
+            {
+                "id": 213,
+                "penduduk": "Kentang",
+                "undercover": "Ubi",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 214,
+                "penduduk": "Jagung",
+                "undercover": "Gandum",
+                "kategori": "Makanan"
+            },
+            {
+                "id": 215,
+                "penduduk": "Brokoli",
+                "undercover": "Kembang Kol",
+                "kategori": "Sayuran"
+            },
+            {
+                "id": 216,
+                "penduduk": "Kecap Manis",
+                "undercover": "Saus Sambal",
+                "kategori": "Bumbu"
+            },
+            {
+                "id": 217,
+                "penduduk": "Mayones",
+                "undercover": "Mustard",
+                "kategori": "Bumbu"
+            },
+            {
+                "id": 218,
+                "penduduk": "Mentega",
+                "undercover": "Minyak Goreng",
+                "kategori": "Bahan Makanan"
+            },
+            {
+                "id": 219,
+                "penduduk": "Cuka",
+                "undercover": "Air Lemon",
+                "kategori": "Bumbu"
+            },
+            {
+                "id": 220,
+                "penduduk": "Ketumbar",
+                "undercover": "Merica",
+                "kategori": "Bumbu"
+            },
+            {
+                "id": 221,
+                "penduduk": "Gendang",
+                "undercover": "Drum",
+                "kategori": "Alat Musik"
+            },
+            {
+                "id": 222,
+                "penduduk": "Piano",
+                "undercover": "Keyboard Musik",
+                "kategori": "Alat Musik"
+            },
+            {
+                "id": 223,
+                "penduduk": "Biola",
+                "undercover": "Cello",
+                "kategori": "Alat Musik"
+            },
+            {
+                "id": 224,
+                "penduduk": "Seruling",
+                "undercover": "Klarinet",
+                "kategori": "Alat Musik"
+            },
+            {
+                "id": 225,
+                "penduduk": "Terompet",
+                "undercover": "Saksofon",
+                "kategori": "Alat Musik"
+            },
+            {
+                "id": 226,
+                "penduduk": "Stadion",
+                "undercover": "GOR (Gelanggang Olahraga)",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 227,
+                "penduduk": "Pelabuhan",
+                "undercover": "Dermaga",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 228,
+                "penduduk": "Terminal",
+                "undercover": "Halte",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 229,
+                "penduduk": "Alun-alun",
+                "undercover": "Taman Kota",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 230,
+                "penduduk": "Pemandian Air Panas",
+                "undercover": "Sauna",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 231,
+                "penduduk": "Gedung Pencakar Langit",
+                "undercover": "Menara",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 232,
+                "penduduk": "Apartemen",
+                "undercover": "Kondominium",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 233,
+                "penduduk": "Kost",
+                "undercover": "Kontrakan",
+                "kategori": "Tempat"
+            },
+            {
+                "id": 234,
+                "penduduk": "Jembatan",
+                "undercover": "Flyover",
+                "kategori": "Tempat/Infrastruktur"
+            },
+            {
+                "id": 235,
+                "penduduk": "Koin",
+                "undercover": "Uang Kertas",
+                "kategori": "Benda"
+            },
+            {
+                "id": 236,
+                "penduduk": "Korek Api",
+                "undercover": "Zippo",
+                "kategori": "Benda"
+            },
+            {
+                "id": 237,
+                "penduduk": "Peta",
+                "undercover": "Kompas",
+                "kategori": "Benda"
+            },
+            {
+                "id": 238,
+                "penduduk": "Jarum",
+                "undercover": "Peniti",
+                "kategori": "Benda"
+            },
+            {
+                "id": 239,
+                "penduduk": "Benang",
+                "undercover": "Tali Raffia",
+                "kategori": "Benda"
+            },
+            {
+                "id": 240,
+                "penduduk": "Paku",
+                "undercover": "Sekrup",
+                "kategori": "Benda"
+            },
+            {
+                "id": 241,
+                "penduduk": "Palu",
+                "undercover": "Tang",
+                "kategori": "Benda"
+            },
+            {
+                "id": 242,
+                "penduduk": "Obeng",
+                "undercover": "Kunci Inggris",
+                "kategori": "Benda"
+            },
+            {
+                "id": 243,
+                "penduduk": "Cat",
+                "undercover": "Pilox",
+                "kategori": "Benda"
+            },
+            {
+                "id": 244,
+                "penduduk": "Kuas",
+                "undercover": "Rol Cat",
+                "kategori": "Benda"
+            },
+            {
+                "id": 245,
+                "penduduk": "Amplop",
+                "undercover": "Map",
+                "kategori": "Benda"
+            },
+            {
+                "id": 246,
+                "penduduk": "Materai",
+                "undercover": "Prangko",
+                "kategori": "Benda"
+            },
+            {
+                "id": 247,
+                "penduduk": "Stempel",
+                "undercover": "Tinta",
+                "kategori": "Benda"
+            },
+            {
+                "id": 248,
+                "penduduk": "Koran",
+                "undercover": "Majalah",
+                "kategori": "Media"
+            },
+            {
+                "id": 249,
+                "penduduk": "Komik",
+                "undercover": "Novel",
+                "kategori": "Buku"
+            },
+            {
+                "id": 250,
+                "penduduk": "Headset",
+                "undercover": "TWS (True Wireless Stereo)",
+                "kategori": "Elektronik"
+            }
+        ]
+    ]
+}

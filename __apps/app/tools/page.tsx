@@ -37,6 +37,7 @@ import {
   TrendingDown,
   Target,
   BarChart2,
+  FlashlightOff,
 } from "lucide-react";
 
 type Category = "all" | "tool" | "minigame";
@@ -87,6 +88,15 @@ const items: {
       desc: "Pertanyaan jujur atau tantangan seru buat kamu dan teman.",
       icon: Flame,
       href: "/tools/truth-or-dare",
+      status: "ready",
+      category: "minigame",
+      tags: ["game", "fun"],
+    },
+    {
+      label: "Undercover",
+      desc: "Setiap pemain secara bergiliran memberikan satu kata atau satu kalimat pendek yang mendeskripsikan kata yang mereka pegang.",
+      icon: FlashlightOff,
+      href: "/tools/undercover",
       status: "ready",
       category: "minigame",
       tags: ["game", "fun"],
