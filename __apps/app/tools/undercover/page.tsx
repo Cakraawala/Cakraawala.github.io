@@ -58,7 +58,7 @@ function shuffleArr<T>(arr: T[]): T[] {
 
 const ROLE_COLORS: Record<Role, string> = {
     civilian: "from-blue-500/20 to-blue-600/10 border-blue-500/30 text-blue-400",
-    undercover: "from-amber-500/20 to-amber-600/10 border-amber-500/30 text-amber-400",
+    undercover: "from-blue-500/20 to-blue-600/10 border-blue-500/30 text-blue-400",
     mrwhite: "from-purple-500/20 to-purple-600/10 border-purple-500/30 text-purple-400",
 };
 
