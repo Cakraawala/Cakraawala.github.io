@@ -33,6 +33,7 @@ interface Player {
     initials: string;
     role: Role;
     word: string;
+    isEliminated?: boolean;
 }
 
 interface TarotCard {
@@ -139,6 +140,11 @@ export default function Undercover() {
     const [selectedCardIdx, setSelectedCardIdx] = useState<number | null>(null); // card being viewed
     const [isRevealed, setIsRevealed] = useState(false); // card flipped open
 
+    // Voting state
+    const [isVotingMode, setIsVotingMode] = useState(false);
+    const [confirmVotePlayer, setConfirmVotePlayer] = useState<Player | null>(null);
+    const [revealedPlayer, setRevealedPlayer] = useState<Player | null>(null);
+
     useEffect(() => {
         fetch("/undercover.json")
             .then((r) => r.json())
@@ -223,7 +229,7 @@ export default function Undercover() {
             word: "",
         }));
 
-        // Build tarot cards (one per player, shuffled — player picks which card = their role)
+        // Build tarot cards (one per player, shuffled - player picks which card = their role)
         const tarotCards: TarotCard[] = shuffledRoles.map((role, i) => ({
             index: i,
             role,
@@ -275,6 +281,8 @@ export default function Undercover() {
         if (currentPickerIdx < players.length - 1) {
             setCurrentPickerIdx((i) => i + 1);
         } else {
+            // Randomize playing order
+            setPlayers(shuffleArr(updatedPlayers));
             setPhase("playing");
         }
     };
@@ -286,12 +294,15 @@ export default function Undercover() {
         setCurrentPickerIdx(0);
         setSelectedCardIdx(null);
         setIsRevealed(false);
+        setIsVotingMode(false);
+        setConfirmVotePlayer(null);
+        setRevealedPlayer(null);
     };
 
     // ── Loading ───────────────────────────────────────────────────────────────
     if (loading) {
         return (
-            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata — siapa yang menyamar di antara kalian?">
+            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata - siapa yang menyamar di antara kalian?">
                 <div className="flex items-center justify-center py-32">
                     <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin" />
                 </div>
@@ -301,12 +312,17 @@ export default function Undercover() {
 
     // ── PHASE: PLAYING ────────────────────────────────────────────────────────
     if (phase === "playing") {
-        const finalCivCount = players.filter((p) => p.role === "civilian").length;
-        const finalUcCount = players.filter((p) => p.role === "undercover").length;
-        const finalMwCount = players.filter((p) => p.role === "mrwhite").length;
+        const activeCivCount = players.filter((p) => p.role === "civilian" && !p.isEliminated).length;
+        const activeUcCount = players.filter((p) => p.role === "undercover" && !p.isEliminated).length;
+        const activeMwCount = players.filter((p) => p.role === "mrwhite" && !p.isEliminated).length;
+
+        const handlePlayerClick = (player: Player) => {
+            if (!isVotingMode || player.isEliminated) return;
+            setConfirmVotePlayer(player);
+        };
 
         return (
-            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata — siapa yang menyamar di antara kalian?">
+            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata - siapa yang menyamar di antara kalian?">
                 <div className="max-w-2xl mx-auto space-y-6">
                     <div className="rounded-2xl bg-primary/5 border border-primary/20 p-5 flex items-center gap-4">
                         <div className="w-10 h-10 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary flex-shrink-0">
@@ -321,24 +337,89 @@ export default function Undercover() {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="text-muted text-xs font-mono mb-3">{"// urutan giliran"} ({players.length} pemain)</p>
-                        {players.map((p, i) => (
-                            <div key={p.id} className="flex items-center gap-3 p-3 rounded-xl bg-surface border border-line">
-                                <div className={`w-9 h-9 rounded-xl border flex items-center justify-center text-sm font-bold flex-shrink-0 ${AVATAR_COLORS[i % AVATAR_COLORS.length]}`}>
-                                    {p.initials}
-                                </div>
-                                <span className="text-soft text-sm font-medium">{p.name}</span>
-                                <span className="ml-auto text-muted text-xs font-mono">giliran {i + 1}</span>
+                        <div className="flex items-center justify-between mb-3">
+                            <p className="text-muted text-xs font-mono">{"// urutan giliran"} ({players.length} pemain)</p>
+                            <button
+                                onClick={() => setIsVotingMode(!isVotingMode)}
+                                className={`px-3 py-1.5 rounded-xl border text-xs font-semibold flex items-center gap-1.5 transition-all active:scale-95 ${isVotingMode
+                                    ? "bg-red-500/15 border-red-500/40 text-red-400 hover:bg-red-500/20"
+                                    : "bg-primary/10 border-primary/30 text-primary hover:bg-primary/15"
+                                    }`}
+                            >
+                                <Play size={12} className={isVotingMode ? "rotate-90" : ""} />
+                                {isVotingMode ? "Selesai Vote / Tutup" : "Mulai Vote 🗳"}
+                            </button>
+                        </div>
+
+                        {isVotingMode && (
+                            <div className="p-3 rounded-xl bg-red-500/5 border border-red-500/20 text-xs text-red-400/90 mb-3 flex items-center gap-2">
+                                <span className="w-2 h-2 rounded-full bg-red-400 animate-ping flex-shrink-0" />
+                                <span>Mode Vote Aktif: Klik pemain yang ingin dieliminasi / di-vote keluar.</span>
                             </div>
-                        ))}
+                        )}
+
+                        <div className="space-y-2">
+                            {players.map((p, i) => {
+                                const RoleIcon = ROLE_ICONS[p.role];
+                                const isClickable = isVotingMode && !p.isEliminated;
+                                return (
+                                    <button
+                                        key={p.id}
+                                        type="button"
+                                        disabled={!isClickable}
+                                        onClick={() => handlePlayerClick(p)}
+                                        className={`w-full flex items-center gap-3 p-3 rounded-xl border transition-all text-left group
+                                            ${p.isEliminated
+                                                ? "bg-surface/40 border-line/20 opacity-50 cursor-not-allowed"
+                                                : isClickable
+                                                    ? "bg-surface hover:bg-red-500/5 border-line hover:border-red-500/30 cursor-pointer hover:-translate-y-0.5 hover:shadow-md"
+                                                    : "bg-surface border-line cursor-default"
+                                            }
+                                        `}
+                                    >
+                                        <div className={`w-9 h-9 rounded-xl border flex items-center justify-center text-sm font-bold flex-shrink-0 ${AVATAR_COLORS[p.id % AVATAR_COLORS.length]}`}>
+                                            {p.initials}
+                                        </div>
+                                        <span className={`text-soft text-sm font-medium ${p.isEliminated ? "line-through text-muted" : ""}`}>
+                                            {p.name}
+                                        </span>
+
+                                        {p.isEliminated ? (
+                                            <div className="ml-auto flex items-center gap-2">
+                                                <span className={`text-[10px] font-mono px-2 py-0.5 rounded-lg border flex items-center gap-1.5 ${ROLE_COLORS[p.role]}`}>
+                                                    <RoleIcon size={10} />
+                                                    {ROLE_LABEL[p.role]} {p.role !== 'mrwhite' && `("${p.word}")`}
+                                                </span>
+                                                <span className="text-red-400 text-xs font-mono font-semibold">Tersingkir</span>
+                                            </div>
+                                        ) : (
+                                            <span className="ml-auto text-muted text-xs font-mono">
+                                                {isVotingMode ? (
+                                                    <span className="px-2 py-1 rounded-lg bg-red-500/10 border border-red-500/25 text-red-400 group-hover:bg-red-500/20 transition-all font-semibold text-xs">
+                                                        Vote
+                                                    </span>
+                                                ) : (
+                                                    `giliran ${i + 1}`
+                                                )}
+                                            </span>
+                                        )}
+                                    </button>
+                                );
+                            })}
+                        </div>
                     </div>
 
                     <div className="rounded-xl border border-line bg-surface p-4">
-                        <p className="text-muted text-xs font-mono mb-3">{"// distribusi peran (untuk host)"}</p>
+                        <p className="text-muted text-xs font-mono mb-3">{"// peran tersisa"}</p>
                         <div className="flex flex-wrap gap-2">
-                            <span className="text-xs font-mono px-2 py-1 rounded-lg bg-blue-500/10 border border-blue-500/20 text-blue-400">{finalCivCount}× Penduduk Sipil</span>
-                            <span className="text-xs font-mono px-2 py-1 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400">{finalUcCount}× Undercover</span>
-                            {finalMwCount > 0 && <span className="text-xs font-mono px-2 py-1 rounded-lg bg-purple-500/10 border border-purple-500/20 text-purple-400">{finalMwCount}× Mr. White</span>}
+                            <span className={`text-xs font-mono px-2 py-1 rounded-lg border transition-all ${activeCivCount === 0 ? "bg-muted/5 border-line/20 text-muted/50" : "bg-blue-500/10 border-blue-500/20 text-blue-400"
+                                }`}>{activeCivCount}× Sipil Aktif</span>
+                            <span className={`text-xs font-mono px-2 py-1 rounded-lg border transition-all ${activeUcCount === 0 ? "bg-muted/5 border-line/20 text-muted/50" : "bg-amber-500/10 border-amber-500/20 text-amber-400"
+                                }`}>{activeUcCount}× Undercover Aktif</span>
+                            {players.some(p => p.role === "mrwhite") && (
+                                <span className={`text-xs font-mono px-2 py-1 rounded-lg border transition-all ${activeMwCount === 0 ? "bg-muted/5 border-line/20 text-muted/50" : "bg-purple-500/10 border-purple-500/20 text-purple-400"
+                                    }`}>{activeMwCount}× Mr. White Aktif</span>
+                            )}
                         </div>
                     </div>
 
@@ -356,6 +437,85 @@ export default function Undercover() {
                         <RotateCcw size={14} /> Main Lagi / Reset
                     </button>
                 </div>
+
+                {/* Modal Konfirmasi Vote */}
+                {confirmVotePlayer && (
+                    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+                        <div className="w-full max-w-sm rounded-2xl bg-surface border border-line p-6 space-y-6 shadow-xl animate-in fade-in zoom-in-95 duration-200">
+                            <div className="text-center space-y-2">
+                                <div className="w-12 h-12 rounded-full bg-red-500/10 border border-red-500/20 flex items-center justify-center mx-auto text-red-400">
+                                    <Shield size={20} />
+                                </div>
+                                <h3 className="text-soft font-bold text-lg">Eliminasi Pemain?</h3>
+                                <p className="text-muted text-xs">
+                                    Apakah Anda yakin ingin menyingkirkan <span className="text-soft font-semibold">{confirmVotePlayer.name}</span> dari permainan?
+                                </p>
+                            </div>
+
+                            <div className="flex gap-3">
+                                <button
+                                    onClick={() => setConfirmVotePlayer(null)}
+                                    className="flex-1 py-2.5 rounded-xl border border-line text-muted text-xs font-mono hover:text-soft hover:bg-white/5 transition-all"
+                                >
+                                    Batal
+                                </button>
+                                <button
+                                    onClick={() => {
+                                        const targetPlayer = confirmVotePlayer;
+                                        setPlayers(prev => prev.map(p => p.id === targetPlayer.id ? { ...p, isEliminated: true } : p));
+                                        setConfirmVotePlayer(null);
+                                        setRevealedPlayer(targetPlayer);
+                                    }}
+                                    className="flex-1 py-2.5 rounded-xl bg-red-500/15 border border-red-500/40 text-red-400 text-xs font-mono font-semibold hover:bg-red-500/25 transition-all"
+                                >
+                                    Ya, Eliminasi
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {/* Modal Reveal Peran */}
+                {revealedPlayer && (() => {
+                    const RoleIcon = ROLE_ICONS[revealedPlayer.role];
+                    return (
+                        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-md p-4">
+                            <div className="w-full max-w-md rounded-2xl bg-surface border border-line p-6 space-y-6 shadow-2xl animate-in fade-in zoom-in-95 duration-200 text-center">
+                                <div className="space-y-2">
+                                    <p className="text-muted text-[10px] font-mono tracking-wider uppercase">Hasil Eliminasi</p>
+                                    <h3 className="text-2xl font-black text-soft">{revealedPlayer.name}</h3>
+                                    <p className="text-muted text-xs">telah dipilih untuk dieliminasi</p>
+                                </div>
+
+                                <div className={`py-6 px-4 rounded-xl border bg-gradient-to-br space-y-4 ${ROLE_COLORS[revealedPlayer.role]}`}>
+                                    <div className="flex items-center justify-center gap-2 font-mono text-sm uppercase tracking-wide opacity-80">
+                                        <RoleIcon size={16} />
+                                        <span>{ROLE_LABEL[revealedPlayer.role]}</span>
+                                    </div>
+
+                                    {revealedPlayer.role === "mrwhite" ? (
+                                        <div className="space-y-2">
+                                            <p className="text-6xl font-bold tracking-widest opacity-25">?</p>
+                                            <p className="text-xs opacity-75">Mr. White tidak mendapatkan kata!</p>
+                                        </div>
+                                    ) : (
+                                        <div className="space-y-1">
+                                            <p className="text-[10px] font-mono opacity-50">Kata Rahasia</p>
+                                            <p className="text-3xl font-extrabold tracking-wide">{revealedPlayer.word}</p>
+                                        </div>
+                                    )}
+                                </div>
+
+                                <button
+                                    onClick={() => setRevealedPlayer(null)}
+                                    className="w-full py-3 rounded-xl bg-primary/10 border border-primary/30 text-primary hover:bg-primary/15 font-semibold text-sm transition-all"
+                                >
+                                    Lanjutkan Permainan
+                                </button>
+                            </div>
+                        </div>
+                    );
+                })()}
             </ToolLayout>
         );
     }
@@ -371,7 +531,7 @@ export default function Undercover() {
         const remaining = cards.filter((c) => c.pickedByPlayerIdx === null).length;
 
         return (
-            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata — siapa yang menyamar di antara kalian?">
+            <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata - siapa yang menyamar di antara kalian?">
                 <div className="max-w-xl mx-auto space-y-6">
 
                     {/* Progress header */}
@@ -474,17 +634,20 @@ export default function Undercover() {
                                 <>
                                     {/* Revealed card */}
                                     <div className={`w-full rounded-xl bg-gradient-to-br border p-5 text-center space-y-3 ${ROLE_COLORS[pickedCard.role]}`}>
-                                        {RoleIcon && (
-                                            <div className="flex items-center justify-center gap-2 opacity-70">
-                                                <RoleIcon size={14} />
-                                                <span className="text-xs font-mono">{ROLE_LABEL[pickedCard.role]}</span>
-                                            </div>
-                                        )}
+
                                         {pickedCard.role === "mrwhite" ? (
-                                            <div>
-                                                <p className="text-5xl font-bold opacity-30">?</p>
-                                                <p className="text-xs opacity-60 mt-2">Kamu tidak dapat kata. Dengarkan baik-baik orang lain!</p>
-                                            </div>
+                                            <>
+                                                {RoleIcon && (
+                                                    <div className="flex items-center justify-center gap-2 opacity-70">
+                                                        <RoleIcon size={14} />
+                                                        <span className="text-xs font-mono">{ROLE_LABEL[pickedCard.role]}</span>
+                                                    </div>
+                                                )}
+                                                <div>
+                                                    <p className="text-5xl font-bold opacity-30">?</p>
+                                                    <p className="text-xs opacity-60 mt-2">Kamu tidak dapat kata. Dengarkan baik-baik orang lain!</p>
+                                                </div>
+                                            </>
                                         ) : (
                                             <p className="text-3xl font-bold tracking-wide">{pickedCard.word}</p>
                                         )}
@@ -497,7 +660,7 @@ export default function Undercover() {
                                         {currentPickerIdx < players.length - 1 ? (
                                             <>Sudah hafal, giliran berikutnya →</>
                                         ) : (
-                                            <><Play size={14} /> Semua selesai — Mulai Game!</>
+                                            <><Play size={14} /> Semua selesai - Mulai Game!</>
                                         )}
                                     </button>
                                 </>
@@ -517,7 +680,7 @@ export default function Undercover() {
     const specialCount = undercoverCount + mrWhiteCount;
 
     return (
-        <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata — siapa yang menyamar di antara kalian?">
+        <ToolLayout title="Undercover" description="Game deduksi sosial berbasis kata - siapa yang menyamar di antara kalian?">
             <div className="max-w-2xl mx-auto space-y-8">
 
                 {/* How to play */}
